@@ -1,1 +1,7 @@
-boil an egg for 5 minutes
+Ingredients:
+ - One egg
+ - 1/2 liter of water
+
+Directions:
+ 1. Put egg in water.
+ 2. Boil egg for 5 minutes.
