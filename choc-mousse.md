@@ -7,8 +7,11 @@ Elizabeth David's Chocolate Mousse
 Ingredients
 ===========
 4 eggs
+
 120 g dark chocolate; broken into small pieces
+
 2 tablespoons rum
+
 2 tablespoons espresso
 
 Notes
