@@ -18,4 +18,3 @@ Directions:
  5. Add the beans and simmer for 10 more minutes.
 
  test
- test pull request
