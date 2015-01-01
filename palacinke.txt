@@ -1,0 +1,4 @@
+eggs
+salt
+flour
+milk
