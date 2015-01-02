@@ -1,3 +1,3 @@
 # Recipes
 
-This repository contains recipes for some foods I like.
+This is an example repository that I forked for Udacity's Git & Github course. Here's a link to it: https://www.udacity.com/course/ud775
