@@ -1,0 +1,6 @@
+Get two slices of bread
+Put them in toaster
+Turn on toaster
+When bread pops up, remove it
+It is now technically called "toast"
+Eat
