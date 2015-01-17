@@ -1,5 +1,5 @@
 Ingredient:
- - 1 watermelon!
+ - a watermelon!
 
 Directions:
  1. Cut it.
