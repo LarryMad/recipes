@@ -1,0 +1,10 @@
+Ingredients:
+ - Phone
+
+Directions:
+	1. Pick up the phone
+	2. Call a takeout place
+	3. Place the order
+	4. Wait
+	5. Go pick up delicious food
+	6. Eat
