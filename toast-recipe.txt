@@ -1,0 +1,12 @@
+Ingredients:
+ - two slices of bread
+ - butter
+ - salami
+ - cheese
+
+Directions:
+ 1. Put butter, cheese and salami between two slices of bread.
+ 2. Put bread into toaster.
+ 3. Wait.
+ 4. Take bread from toaster.
+ 5. Eat.
