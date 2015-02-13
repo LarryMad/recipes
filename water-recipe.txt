@@ -1,5 +1,2 @@
-hey this is water recipe generated on macbook by ankush
 
-added by ankush on local machine
-
-this is from nwe branch on local machine
+this is from new branch on local machine
