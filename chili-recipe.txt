@@ -1,5 +1,6 @@
 Ingredients:
- - These are some changes by Zain. And now I make even more changes
+
+ - These are some changes by Zain. And now I make even more changes. And now I make even more changes
  - 2 pounds ground beef
  - 2 cloves garlic, chopped
  - One 8-ounce can tomato sauce
