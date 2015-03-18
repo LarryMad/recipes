@@ -1,1 +1,3 @@
 This is a random recipe
+
+We're not too keen on empty repos or spam here.
