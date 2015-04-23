@@ -1,0 +1,5 @@
+1 Brot
+1 Butter
+1 Scheibe Käse
+
+Käse auf Butter auf Brot.
