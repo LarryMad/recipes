@@ -4,7 +4,6 @@ Ingredients:
  - Half an onion, chopped
  - One 8-ounce can tomato sauce
  - 2 tablespoons chili powder
- - 1 teaspoon ground cumin
  - 1 teaspoon ground oregano
  - 1 teaspoon salt
  - 1/4 teaspoon cayenne pepper
@@ -16,7 +15,8 @@ Directions:
  1. Marinate the beef for half an hour with chopped garlic, onion and some oil.
  2. Brown the ground beef in a large bot.
  3. Onion and garlic pieces and drain off the excess fat.
- 4. Add the tomato sauce, chili powder, cumin, oregano, salt, and cayenne.
+ 4. Add the tomato sauce, chili powder, oregano, salt, and cayenne.
  5. Stir, then cover and simmer over low heat for one hour.
  6. Mix the corn flour and 1/2 cup water in a small bowl.  Add to chili.
  7. Add the beans and simmer for 10 more minutes.
+ 
