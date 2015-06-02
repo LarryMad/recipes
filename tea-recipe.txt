@@ -1,0 +1,22 @@
+	1. tea-bag
+	2. boiling water
+	3. sugar
+	4. milk
+
+	put tea-bag into a cup
+	pour some hot water into the same cup
+	jerk your tea-bag a little
+	wait
+	wait
+	wait
+	take the tea-bag out from where it is
+	put some sugar into the same cup
+	with a spoon
+	now rotate it (spoon) inside the cup with brown water
+	take the spoon out
+	no, actually leave it inside the cup
+	pour some milk into the same cup
+	mix it with the spoon
+	no, it (milk) with brown water ... with the spoon
+	take the spoon out
+	tea is ready
