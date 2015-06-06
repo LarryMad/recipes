@@ -1,33 +1,41 @@
-Homemade Yogurt Recipe
-=====================
+#Homemade Yogurt Recipe
 By Rod J Hubbard
 June 1, 2015
 
-Ingredients
---------------
+##Ingredients
 1. Milk - one gallon
 2. Yogurt - 1/4 cup
 
-Tools
--------------
+##Tools
 1. Candy thermometer
 2. Deep pot
 3. Glass bowl (optional, for use as double boiler)
 4. Glass jars for yogurt output
-5. Kettle
-6. Long spoon or similar implement to stir milk during cooking
+5. Long spoon or similar implement to stir milk during cooking
+6. Clean bath towel (optional)
 7. Range
-8. Clean bath towel (optional)
 
-Steps
-----------------
-1. Boil water in the kettle.
+##Concise Recipe
+1. Sterlize tools and containers
+2. Heat milk to 180 degrees fahrenheit
+3. Remove milk from heat and let cool to 115 degrees fahrenheit
+4. Mix in yogurt
+5. Cap and keep jars warm (110 to 115 degrees ideally) for 5 to 12 hours so yogurt can incubate.
+6. Check that the yogurt incubated successfully (i.e., it thickened and there is no sign of mold).
+7. Refrigerate the yogurt for 3 hours to let it further thicken.
+8. Serve and enjoy
+
+##Detailed Instructions
+1. Boil water (I recommend using a kettle but a pot with a lid works too).
 2. Sterilize the glass jars by pouring boiling water into each jar. Pour the remaining boiling water into the glass bowl and immerse the candy thermometer, stirring tool, and anything else that will be touching the milk/yogurt.
 3. After approximately 10 minutes passes, pour all of the boiled water into the pot.
 4. Put the caps back onto the glass jars temporarily to prevent dust or germs from settling in them while you continue the recipe.
 5. Prepare the pot
-    5.1. If you will be using a double boiler setup, add or subtract water from the pot as necessary to have enough water for implementing a double boiler setup. Bring the water in the pot to a boil. 
+
+    5.1. If you will be using a double boiler setup, add or subtract water from the pot as necessary to have enough water for implementing a double boiler setup. Bring the water in the pot to a boil.
+
     5.2. If you will not be using a double boiler, empty the water from the pot.
+
 6. Pour the milk into the glass bowl (if using a double boiler) or directly into the pot (which should be empty if you are pouring the milk directly into it).
 7. Heat the milk until it reaches approximately 180 degrees fahrenheit. Stir the milk frequently to prevent the milk on the bottom from scorching. Stirring is especially important if you are not using a double boiler setup.
 8. Remove the pot from the heat immediately after it reaches 180 degrees fahrenheit.
@@ -42,4 +50,4 @@ Steps
 17. Tighten the lids on the yogurt to be airtight.
 18. Place the yogurt jars in the refrigerator.
 19. Wait at least three hours after putting the yogurt in the refrigerator to let the yogurt chill and further solidify prior to serving.
-20. The yogurt in the sealed jars will stay good for at least 7-10 days after making it. I recommend finishing a jar within a few days after opening it.
+20. The yogurt in the sealed jars will stay good for 7-10 days after making it. I recommend finishing a jar within a few days after opening it.
