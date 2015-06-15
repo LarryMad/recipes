@@ -1,0 +1,21 @@
+Ingredients:
+ - Milk
+ - 'Cornflakes' Cereal (Rooster Cereal)
+ - Sugar
+ - Oats
+ - 1 Banana
+ - 1 Cereal Boal
+ 
+Directions:
+ 1. Pour cereal flakes into cereal bowl.
+ 
+ 2. Pour the amount of sugar you desire
+    on top of cereal flakes in bowl.
+ 
+ 2. Pour the amount of oats you desire
+    on top of sugar in bowl.
+	
+ 3. Cut the banana into cylinder pieces
+    and throw those pieces into the bowl too.
+	
+ 4. Pour milk. :D
