@@ -1,4 +1,4 @@
-pull vs fetch
+
  Ingredients:
 
  - 2 cups sugar
