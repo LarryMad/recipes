@@ -1,0 +1,3 @@
+Pizza:
+	Preheat oven to 400
+	Put in Pizza for 11-14 minutes
