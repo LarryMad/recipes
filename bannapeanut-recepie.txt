@@ -1,0 +1,12 @@
+IIngredients:
+ - 2 bananas
+ - 2 slite of bread.
+ - 1 spon of peanut boder. 
+
+Directions:
+ 1. Take the peanud boder and put in in the bread.
+ 
+ 2. In a large bowl, combine the sugar, flour, cocoa, baking powder, baking soda
+    and salt.  Add eggs, milk, oil and vanilla. Mix until smooth.  Stir in
+    boiling water (batter will be thin). Pour batter into prepared pans.
+ 
