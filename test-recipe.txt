@@ -1,0 +1,2 @@
+This is a test recipe.
+Just to testing using Git more like Git and less like Subversion.
