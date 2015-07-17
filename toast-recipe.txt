@@ -1,0 +1,12 @@
+items:
+bread
+butter
+
+instructions:
+put a piece of bread in the toaster
+adjust toaster setting to desired darkness
+turn on toaster
+wait
+take out toasted bread
+spread butter on one side
+enjoy
