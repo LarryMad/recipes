@@ -1,0 +1,7 @@
+Ingredients:
+ - something
+ - anotherthing
+
+Directions:
+ 1. Put all in one bowl
+ 2. Eat
