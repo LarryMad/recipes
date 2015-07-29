@@ -1,0 +1,7 @@
+eggs
+rice
+seafoods
+chicken
+broccoli
+onions
+mushrooms
