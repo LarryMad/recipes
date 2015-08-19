@@ -1,0 +1,9 @@
+boiled_water.txt
+- 1 liter of water
+
+Directions:
+1.	Put your litter of water into a container.
+2.	Put the container into the microwave.
+3.	Set the time to 1 Hour.
+4.	Stop the microwave when you notice the water is boiling.
+5.	Enjoy :)
