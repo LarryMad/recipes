@@ -1,0 +1,2 @@
+ingredients : coffee hot water
+recipe : apply hot water to coffee
