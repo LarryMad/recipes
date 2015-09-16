@@ -1,3 +1,3 @@
 # Recipes
 
-This repository contains recipes for some foods I like the most.
+This repository contains recipes for some foods I like to eat.
