@@ -1,0 +1,9 @@
+Ingredients:
+ - Water
+ - Coffee
+ - Milk
+
+Directions:
+ 1. Bowl the water
+ 2. Make the coffee
+ 3. Add some milk.
