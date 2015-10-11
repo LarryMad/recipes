@@ -1,0 +1,5 @@
+1 - buy some meat
+2 - put it into a stick
+3 - light some fire
+4 - put some salt
+5 - eat
