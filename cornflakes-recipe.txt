@@ -1,0 +1,8 @@
+Ingredients:
+ - Corn Flakes
+ - Milk
+
+Directions:
+  1. Put Corn Flakes in a bowl.
+  2. Add milk.
+  3. Eat.
