@@ -1,0 +1,12 @@
+Ingradient:
+vegetable
+salt
+garlic
+
+Directions:
+cut the vegetable
+add some water ans oil
+add vegetable
+put on the lid, and wait for 2 minute
+add some salt
+finish!
