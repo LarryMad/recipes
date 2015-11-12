@@ -1,4 +1,5 @@
 Ingredients:
+ - Sumar
  - 2 cloves garlic, chopped
  - One 8-ounce can tomato sauce
  - 2 tablespoons chili powder
