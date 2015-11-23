@@ -1,0 +1,11 @@
+Ingredients:
+ - ice cream
+ - mustard
+
+Directions:
+ 1. Mix all ingredients.
+ 
+ 2. Freeze.
+ 
+ 3. Yum!
+
