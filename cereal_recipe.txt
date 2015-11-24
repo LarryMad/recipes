@@ -1,0 +1,8 @@
+Cereal Recipe
+
+1. Milk
+2. Cereal
+3. Bowl
+4. Spoon
+5. Put milk, cereal, and spoon in the bowl. 
+6. Eat the milk and cereal
