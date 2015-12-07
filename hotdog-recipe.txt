@@ -1,0 +1,13 @@
+Ingredients
+- Hot Dog
+- Hot Dug Bun
+- Water
+- Mustard
+
+Recipe
+1.  Boil water
+2.  Cook hotdog in water.
+3.  Put hotdog on bun.
+4.  Put mustard on hotdog.
+
+Voila!  Bon appetit!
