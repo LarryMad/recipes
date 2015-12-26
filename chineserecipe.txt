@@ -1,0 +1,4 @@
+chicken
+pepper
+oil
+salt
