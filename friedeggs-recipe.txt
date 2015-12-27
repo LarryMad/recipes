@@ -1,7 +1,7 @@
 Ingredients:
-  - some eggs
-  - onions
-  - spice
+  - Some eggs
+  - Onions
+  - Spice
 
 Directions:
   1. load up a frying pan with oil and heat until the oil boils.
