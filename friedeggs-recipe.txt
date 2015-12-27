@@ -1,0 +1,19 @@
+Ingredients:
+  - some eggs
+  - onions
+  - spice
+
+Directions:
+  1. load up a frying pan with oil and heat until the oil boils.
+
+  2. Break the eggs and put them into a bowl.
+
+  3. Cut up the onions and mix it with the spice.
+
+  4. Load up the frying pan with the mixture of onions and spice
+
+  5. Load up the pan with the eggs in the bowl.
+
+  6. Stir until it looks edible :D.
+
+  7. Done!
