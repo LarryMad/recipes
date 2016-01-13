@@ -8,7 +8,7 @@ Ingredients:
  - 2 eggs
  - 1 cup milk
 <<<<<<< HEAD
- - 1/2 cup vegetable oil // add more oil
+ - 3/4 cup vegetable oil // add more oil
 =======
  - 3/4 cup vegetable oil
 >>>>>>> 618cbcf99682ce9f0da7f359b1a1208d06ecd698
