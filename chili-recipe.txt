@@ -4,8 +4,8 @@ Ingredients:
  - One 8-ounce can tomato sauce
  - 2 tablespoons chili powder
  - 1 teaspoon ground oregano
- - 1 teaspoon ground coriander
- - 1 teaspoon ground peper
+ - 1 teaspoon ground coriander 
+ - 1 teaspoon ground peper // new spices
  - 1 teaspoon salt
  - 1/4 teaspoon cayenne pepper
  - 1/4 cup corn flour
