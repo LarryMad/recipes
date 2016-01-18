@@ -1,0 +1,8 @@
+Ingredients:
+- pasta
+- sauce
+
+Directions:
+ 1. Cook pasta
+ 2. Add sauce
+
