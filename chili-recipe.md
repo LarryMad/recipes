@@ -1,7 +1,6 @@
 #Chili
 
 ###Ingredients
-:
  * 2 pounds ground beef
  * 2 cloves garlic, chopped
  * One 8-ounce can tomato sauce
@@ -14,7 +13,7 @@
  * One 15-ounce can kidney beans, drained and rinsed
  * One 15-ounce can pinto beans, drained and rinsed
 
-Directions:
+###Directions
  1. Brown the ground beef in a large bot and drain off the excess fat.
  2. Add the tomato sauce, chili powder, oregano, salt, cinnamon, and cayenne.
  3. Stir, then cover and simmer over low heat for one hour.
