@@ -1,0 +1,27 @@
+Awesome Burger Recipe
+
+Ingredients:
+-1/3lb organig grass fed ground beef
+-cheddar cheese
+-pepper jack cheese
+-fried onion rings
+-sliced organic brown tomatoe
+-butter lettuce
+-bread & butter pickles
+-organin mayo
+-hawaiian burger buns
+
+Instructions:
+-Cook the burger in a teaspoon of butter, evenly on both sides.
+-Spread mayo on both halves of the burger bun and put on the skillet you cooked the burger on, mayo side down, until they turn golden brown.
+-build as such:
+	bottom bun
+	pickles
+	burger
+	cheeses
+	tomato
+	lettuce
+	fried onion ring
+	top bun
+
+	*add your favorite condiments. mine is Frenchs Bbq tangy mustard!
