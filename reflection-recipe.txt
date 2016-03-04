@@ -14,3 +14,6 @@ at list, it shows us, where specifilly is the need to manually do
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 well, sometimes i can just dont want to pull or push my changes, and also i would like to knoe
 when a certain change is do
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+clone é pra baixar pro pc, fork é pra copiar pro meu github
+branches é pra criar uma nova ramificação, 
