@@ -1,0 +1,21 @@
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches are quite useful when u need to save a new version of your oficial project, but u dont want, or dont need to update that. 
+How do the diagrams help you visualize the branch structure?
+they help understand, cause its easier when u can see, then when u have to imagine, 
+if u imagine, u can be wrong
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do
+we respresent it   cause know its the new branch, its important to see .
+its quite nice that we can merge two branchs, since one could be a test-feature, or maybe various features, and afterwards when they are done, they are allready working we can 
+make them into the same version, and thats greaty
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+well. manually doing its quite annoying , when git ask us to manually merge
+at list, it shows us, where specifilly is the need to manually do
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+well, sometimes i can just dont want to pull or push my changes, and also i would like to knoe
+when a certain change is do
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+clone é pra baixar pro pc, fork é pra copiar pro meu github
+branches é pra criar uma nova ramificação, 
+fcdsfd
+
