@@ -1,0 +1,4 @@
+1.  Remove slice of bread from package
+2.  Insert slice into toaster
+3.  Push button down on toaster
+4.  Wait for toast to pop up
