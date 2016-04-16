@@ -8,13 +8,14 @@ Ingredients:
  - 9 teaspoon wasabi
  - 1/4 teaspoon cayenne pepper
  - 1/4 cup corn flour
+ - 1 teaspoon habanero
  - One 15-ounce can kidney beans, drained and rinsed
  - One 15-ounce can pinto beans, drained and rinsed
 
 Directions:
  1. Brown the ground beef in a large bot and drain off the excess fat.
 <<<<<<< HEAD
- 2. Add the tomato sauce, chili powder, cumin, oregano, salt, cayenne and wasabi.
+ 2. Add the tomato sauce, chili powder, cumin, oregano, salt, cayenne, wasabi and habanero.
 =======
  2. Add the tomato sauce, chili powder, oregano, salt, and cayenne.
 >>>>>>> origin/master
