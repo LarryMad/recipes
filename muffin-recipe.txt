@@ -3,6 +3,7 @@ muffin-recipe
 1. mix flour
 2. mix butter and sugar
 3. bake for 30 mins
-4. leave it for 20 mins
+4. leave it for 5 mins
 5. serve
 6. Enjoy
+
