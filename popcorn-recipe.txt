@@ -1,0 +1,8 @@
+open the box of popcorn
+pick a pack
+open the pack
+place in microwave
+press popcorn button
+wait...
+get out, add salt
+eat
