@@ -1,0 +1,6 @@
+Burger.
+
+Get burger.
+Put in bun.
+Add mustard.
+Eat.
