@@ -4,6 +4,7 @@ Ingredients:
  - su
  - shouyu
  - shio
+ - shouga
 
 
 Directions:
