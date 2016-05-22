@@ -3,6 +3,7 @@ Ingredients:
  - fish
  - su
  - shouyu
+ - shio
 
 
 Directions:
