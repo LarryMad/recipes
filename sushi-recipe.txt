@@ -1,0 +1,11 @@
+Ingredients:
+ - rice
+ - fish
+ - su
+ - shouyu
+
+
+Directions:
+  1. rice with su
+  2. fish on rice 
+  3. eat with shouyu
