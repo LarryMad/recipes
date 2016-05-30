@@ -1,0 +1,12 @@
+Ingredients:
+ - 200 gr maccheroni
+ - 200 ml tomato sauce
+ - 100 gr tuna fish
+
+Directions:
+ 1. Boil the water
+ 2. Put the salt
+ 3. Put the pasta
+ 4. Drain the pasta
+ 5. Cook the tuna, add tomato
+ 6. Put the tuna and tomato into the pasta
