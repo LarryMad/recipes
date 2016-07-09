@@ -1,0 +1,11 @@
+Ingredients:
+	- 3 eggs
+	- butter
+
+Directions:
+	1. Separate 1 egg.  Put the yolk in a cold pan.
+	2. Add the butter and the other two eggs to the cold pan.
+	3. Put the pan on a high heat and stir constantly.
+	4. As clumps start forming alternate the pan on and off the heat to prevent the eggs cooking 
+	too quickly.
+	5. Season and serve as preferred.
