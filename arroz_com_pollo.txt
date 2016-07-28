@@ -1,0 +1,7 @@
+arroz com pollo
+
+ingredientes:
+
+- ajo
+- pollo
+- sal
