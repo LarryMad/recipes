@@ -18,15 +18,7 @@ Directions:
  5. Add the beans and simmer for 10 more minutes.
 <<<<<<< HEAD
  6. Beef Burger.
- 6. Beef Burger without salt.
-||||||| merged common ancestors
-<<<<<<< HEAD
- 6. Beef Burger.
  7. spicy from local
- 6. Beef Burger.
-=======
- 6. Beef Burger.
- 7. spicy from local
- 6. Beef Burger with salt.
->>>>>>> 85363ab3df5118d035c56f9d745e8c43b9677e20
+ 8. Beef Burger with salt.
+
 
