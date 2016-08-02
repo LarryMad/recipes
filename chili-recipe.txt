@@ -16,6 +16,17 @@ Directions:
  3. Stir, then cover and simmer over low heat for one hour.
  4. Mix the corn flour and 1/2 cup water in a small bowl.  Add to chili.
  5. Add the beans and simmer for 10 more minutes.
+<<<<<<< HEAD
  6. Beef Burger.
  6. Beef Burger without salt.
+||||||| merged common ancestors
+<<<<<<< HEAD
+ 6. Beef Burger.
+ 7. spicy from local
+ 6. Beef Burger.
+=======
+ 6. Beef Burger.
+ 7. spicy from local
+ 6. Beef Burger with salt.
+>>>>>>> 85363ab3df5118d035c56f9d745e8c43b9677e20
 
