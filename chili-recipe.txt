@@ -18,3 +18,4 @@ Directions:
  4. Mix the corn flour and 1/2 cup water in a small bowl.  Add to chili.
  5. Add the beans and simmer for 10 more minutes.
  6. Added new comment by siddharth on 08-08-2016
+ 7. Added second commit to check how its work
