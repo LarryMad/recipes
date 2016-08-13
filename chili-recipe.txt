@@ -4,7 +4,7 @@ Ingredients:
  - One 8-ounce can tomato sauce
  - Taha1
  - 2 tablespoons chili powder
- - 1 teaspoon ground cumin
+ - This is My changes
  - 1 teaspoon salt
  - 1/4 teaspoon cayenne pepper
  - Taha2
