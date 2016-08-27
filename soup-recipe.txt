@@ -7,3 +7,4 @@ Chicken soup:
 . salt
 . dill
 . parsley
+. veg-oii
