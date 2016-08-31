@@ -1,0 +1,8 @@
+Ingredients:
+ - Pasta
+ - Water
+
+Directions:
+ 1. Boil water. (Optional: add salt to taste)
+
+ 2. Add pasta. Cook for 10 mins.
