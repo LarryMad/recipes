@@ -1,0 +1,8 @@
+Ingredients:
+ - 1 potato
+ - some water
+
+Directions:
+ 1. put the potato in the water
+ 2. boil the potato
+ 3. eat boiled potato
