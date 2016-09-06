@@ -1,0 +1,11 @@
+Ingredients:
+ - 1 slice of bread
+ - Butter
+
+Materials:
+ - Toaster
+
+Directions:
+ 1) Place a slice of bread into toaster
+ 2) Turn toaster on
+ 3) Once the toast is ready, apply butter
