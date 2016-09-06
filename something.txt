@@ -1,0 +1,10 @@
+Ssdvasdh omething something
+Line 2 in local
+Line 3 in local from branch1
+Line 4 in remote
+Line 5 in github
+Line 6 in new-branch
+Line 7 in github
+Line 8 in remote
+Line 9 in remote
+Line 10 in local
