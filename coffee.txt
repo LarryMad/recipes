@@ -1,0 +1,9 @@
+Ingredients:
+  - Coffee grains
+  - Sugar
+  - Water
+
+Directions:
+  - Put the coffee powder in a Coffee Machine with water.
+  - Turn the machine on and wait until the coffee is ready.
+  - Add how much sugar do you want.
