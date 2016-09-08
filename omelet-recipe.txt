@@ -1,0 +1,9 @@
+omelet-recipe
+
+ham-cheese omelet recipe
+
+1. Crack 4 eggs and stir well yolk and egg white.
+2. Chop ham and cheese in adequate size.
+3. In medium heat fan, pour egg and spread it out.
+4. Pour ham and cheese and fold egg up.
+5. turn it upside down.
