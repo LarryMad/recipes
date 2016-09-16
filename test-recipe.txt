@@ -1,0 +1,11 @@
+Ingredients:
+ - Patience
+ - Hard work
+ - Dedication
+ - Will
+ - Luck
+
+Output:
+-Success
+
+Sorry i am a developer . So cant write anything related to recipe.
