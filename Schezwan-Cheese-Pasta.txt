@@ -1,0 +1,23 @@
+A recipe for bachelors with packed ingridients or ingridients collected from fast food joints.
+
+Ingridents:
+
+  - Chings Schezwan Sauce - 3 Packets 
+  - Penne Pasta - 150 Grams
+  - Mozerella Cheese - 100-150 Grams 
+  - Salt
+  - Oregano (Optional)
+  - Black Pepper (Optional)
+  - Chilly Flakes (Optional)
+  
+Recipe:
+
+ - Boil the penne pasta till Al Dante.
+ - Add 2 Cups of water in a pan and 2 packets of schezwan sauce, keep the heat on medium and brin the mixture to boil.
+ - Start adding cheese in 10-15 grams quantity, add more cheese after all of it is dissolved properly. Stir the mixture properly
+   to protect lumps formation.
+ - When all the cheese is added heat till this sauce is of proper consistency add the pasta and 1 packet schezwan sauce to it.
+ - Add a salt ( to taste) and (optional) oregano, black pepper and chilly flakes as per your liking 
+ 
+ Voila! A restaraunt class dish is prepared in 1.50$ and 15 mintues, will server 2 ( or 1 very hungry ) adults.
+ Serve Hot!
