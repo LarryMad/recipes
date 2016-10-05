@@ -1,0 +1,11 @@
+Ingredients:
+	Kielbasa
+	Potatos
+	Red peppers
+	Green peppers
+	Onions
+
+Directions:
+	Cut potatoes into bite sized peiced and boil until cooked
+	Saute peppers & onions in pan
+	Add in kielbasa and potatoes, let cook for another few minutes
