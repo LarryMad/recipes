@@ -1,0 +1,6 @@
+1 egg
+2 butter
+1 flour
+3 sugar
+
+Mix. Bake.
