@@ -1,0 +1,4 @@
+1 Human
+1 knife
+
+Cut the human into pieces. Done
