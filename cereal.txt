@@ -1,0 +1,7 @@
+Ingredients:
+  - Cereal of choice
+  - Milk
+
+Directions:
+  1. Add the desired amount of cereal to a bowl.
+  2. Add the desired amount of milk to the bowl.
