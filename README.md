@@ -1,4 +1,4 @@
-- Files for the Udacity course on Git and GitHub -
+(Files for the Udacity course on Git and GitHub)
 
 # Recipes
 
