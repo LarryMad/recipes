@@ -1,0 +1,13 @@
+Ingredients:
+ - bagel
+ - oil
+ - 2 eggs
+ - butter
+ - cheese
+
+Directions:
+  1. Toast bagel.
+  2. Heat oil in pan and cook eggs, over easy.
+  3. Butter toasted bagel.
+  4. Place one egg on each bagel half.
+  5. Place cheese on top of eggs.
