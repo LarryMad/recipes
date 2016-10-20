@@ -5,6 +5,9 @@ Ingredients:
  - 2 tablespoons chili powder
  - 3 tablespoons cheese powder
  - 1 teaspoon ground cumin
+ - 1 teaspoon ground cumin
+=======
+>>>>>>> origin/master
  - 1 teaspoon ground oregano
  - 1 teaspoon salt
  - 1/4 teaspoon cayenne pepper
