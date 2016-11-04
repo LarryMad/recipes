@@ -1,0 +1,3 @@
+I create this file because I have set the function that it can jump the password
+But unfortunately it still needs my password
+So I make a test to identify whether the number of my password inputing is just one.
