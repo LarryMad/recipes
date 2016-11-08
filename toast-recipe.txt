@@ -1,0 +1,10 @@
+Ingredients:
+ - 2 slices of bread
+ - 1 tablespoon butter
+ - 1 teaspoon salt
+
+Directions:
+ 1. Put bread into toaster for 5 minutes.
+ 2. Spread the butter on the bread.
+ 3. Add salt.
+ 4. Profit.
