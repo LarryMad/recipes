@@ -1,0 +1,5 @@
+1) make stock
+2) add lentils
+3) add noodles
+4) add greens
+5) serve
