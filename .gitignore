@@ -1,4 +1,3 @@
-
 sap-ui-cachebuster-info.json
 visual_ext_index.html
 /webapp/visual_ext_index.html
@@ -6,3 +5,8 @@ UIAdaptation_index.html
 changes_preview_index.html
 mock_preview_sapui5.html
 .*/mock_preview_sapui5.html
+extended_runnable_file.html
+.*/extended_runnable_file.html
+changes_preview.js
+fioriHtmlRunner.html
+.*/fioriHtmlRunner.html
