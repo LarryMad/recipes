@@ -1,0 +1,23 @@
+Ingredents:
+
+[
+	Potatoes 2
+	Carrots 2
+	Apple 1
+	Walnut 50 gm
+	Raisin 50 gm
+	Mayonnaise ½ cup
+	Black pepper ¼ tsp
+	Salt to taste
+	Cream 4 tsp
+]
+
+Cocking Direction:
+[
+	1.Boil potatoes and carrots.
+	2.Cut apple, potato and carrot into cubes.
+	3.Combine boiled carrot, boiled potatoes, apple, walnut, raisin, black pepper, mayonnaise and cream in a bowl and mix well.
+	4.Serve the delicious Russian salad with grilled chicken and zeera pulao.
+	5.To serve, garnish with lettuce leaf, sliced cucumber and long slices of carrot.
+	6.Tips: Boiled green peas or boiled chicken can also be added to the salad.
+]
