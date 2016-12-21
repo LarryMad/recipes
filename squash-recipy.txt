@@ -1,0 +1,4 @@
+wash
+slice
+bake
+eat
