@@ -1,0 +1,3 @@
+axe	1000
+hammer	1600
+recipe	1350
