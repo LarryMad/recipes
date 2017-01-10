@@ -1,0 +1,9 @@
+1:get a "pain de mie" slice
+2:add jam onto it
+3:add "gruyere" on top
+4:add another slice of jam
+5:add "bechamelle"
+6:add "gruyere" again
+7:add another "pain de mie" slice
+8:add a bit of "gruyere"
+9:put into the oven at 220°C for something like 8-10 minutes
