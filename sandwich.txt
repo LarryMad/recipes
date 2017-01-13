@@ -1,0 +1,7 @@
+
+a bread
+a meat
+onother bread
+
+merge the ingredients into a stack like structure such that sandwich[0] == sandwich[2]
+Consume using the pop method.
