@@ -1,0 +1,9 @@
+Ingredients:
+ - French
+ - Fries
+
+Directions:
+  1. In a medium saucepan, melt French and Fries
+  2. Bring to a boil
+  3. Serve with Lettuce (optional)
+
