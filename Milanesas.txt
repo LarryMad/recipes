@@ -1,0 +1,80 @@
+Last login: Wed Feb  1 11:44:59 on console
+jorgegoldaracena ~ $ cd Desktop/Git/version-control/
+jorgegoldaracena version-control $ ls
+asteroids	pappu-pakia	reflections
+jorgegoldaracena version-control $ cd reflections
+jorgegoldaracena (master *) reflections $ log
+-bash: log: command not found
+jorgegoldaracena (master *) reflections $ git log
+commit 0be944a794e1919bdd69cac9ca33732e6c314857
+Author: Jorge Goldaracena <jorgegoldaracena@gmail.com>
+Date:   Tue Jan 31 17:23:13 2017 -0600
+
+    Create new file for reflections in lesson 3
+
+commit 39d3ad515f844a31b747fe7be6bafc037a9b0d47
+Author: Jorge Goldaracena <jorge@el-laurel.com.mx>
+Date:   Wed Jan 18 00:00:08 2017 -0600
+
+    Question about automatically merging vs manually
+
+commit 17e874624ba0c72173284d825b80b8bd50a0247e
+Author: Jorge Goldaracena <jorge@el-laurel.com.mx>
+Date:   Tue Jan 17 23:30:38 2017 -0600
+
+    Las two questions right after we learn merging
+
+commit 55fa2f4c145125c013d098b6e1d66074e02af49f
+Author: Jorge Goldaracena <jorge@el-laurel.com.mx>
+Date:   Tue Jan 17 22:55:12 2017 -0600
+
+    Question about the usfulness of the diagrams while branching
+jorgegoldaracena (master *) reflections $ git diff
+diff --git a/lesson_2_reflections.txt b/lesson_2_reflections.txt
+index 91b486a..e5b8cf3 100644
+--- a/lesson_2_reflections.txt
++++ b/lesson_2_reflections.txt
+@@ -1,6 +1,6 @@
+ What happens when you initialize a repository? Why do you need to do it?
+ 
+-It turns the disgnated folder an all of it's contents into a repository, which saves a history of changes in an invisible folder named .git
++It turns the designated folder and all of it's contents into a repository, which saves a history of changes in an invisible folder named .git
+ 
+ How is the staging area different from the working directory and the repository? What value do you think it offers?
+ 
+jorgegoldaracena (master *) reflections $ subl lesson_3_reflections 
+jorgegoldaracena (master *) reflections $ git add lesson_3_reflections lesson_2_reflections.txt
+jorgegoldaracena (master +) reflections $ git diff
+jorgegoldaracena (master +) reflections $ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   lesson_2_reflections.txt
+	modified:   lesson_3_reflections
+
+jorgegoldaracena (master +) reflections $ git commit
+[master 646c1c3] Question about pulling and pushin manually lesson 3 and grammar corrections in lesson 2
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+jorgegoldaracena (master) reflections $ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 551 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/jgoldaracena/reflection.git
+   0be944a..646c1c3  master -> master
+jorgegoldaracena (master) reflections $ cd ..
+jorgegoldaracena version-control $ git clone https://github.com/jgoldaracena/recipes.git
+Cloning into 'recipes'...
+remote: Counting objects: 16, done.
+remote: Total 16 (delta 0), reused 0 (delta 0), pack-reused 16
+Unpacking objects: 100% (16/16), done.
+Checking connectivity... done.
+jorgegoldaracena version-control $ cd recipes
+jorgegoldaracena (master) recipes $ git remote -v
+origin	https://github.com/jgoldaracena/recipes.git (fetch)
+origin	https://github.com/jgoldaracena/recipes.git (push)
+jorgegoldaracena (master) recipes $ subl milanesas
+jorgegoldaracena (master) recipes $ 
