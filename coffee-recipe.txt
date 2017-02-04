@@ -1,0 +1,12 @@
+Ingredients:
+ - 1 teaspoon coffee
+ - 2 teaspoons sugar
+ - 1/5 -> 1 cup milk 
+ - 0 -> 4/5 cup water
+
+Directions:
+ 1. Mix milk and water in one cup and microwave for 2:30min -> 1:45min (water \propto 1/milk)
+ 2. Add the sugar
+ 3. add the coffee
+ 4. stir for 2 clockwise and 3 counter-clockwise rotations
+ 5. enjoy
