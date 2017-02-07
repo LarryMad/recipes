@@ -1,0 +1,15 @@
+ingredientes:
+cebolla
+tomate
+ajo
+jenjibre
+azucar
+vinagre de alcohol
+aceto balsamico
+aji rojo
+aji picante
+
+preparacion:
+cortar todo lo solido y procesar, poner a hervir junto con el azucar y los liquidos
+revolver frecuentemente hasta evaporar y lograr consistencia adecuada
+dejar enfriar o no y servir blabla
