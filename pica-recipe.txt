@@ -3,4 +3,5 @@ so
 voda
 pecurke
 salama
+origano
 pecenica
