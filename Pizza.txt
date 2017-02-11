@@ -1,0 +1,7 @@
+En un recipiente hondo y grande, ponga la levadura y 2 cucharadas de agua caliente y mezcle bien. Deje que repose unos minutos. (Se deben de formar burbujas). Nota: si nada sucede despues de 10-15 minutos, vuelva a empezar. Una vez que las burbujas aparezcan, agregue el resto del agua tibia, la sal y 2 cuchardas de aceite de oliva. Revuelva bien.
+Divida el harina en 1/2 tazas. Debe de sobrar 1/4 de harina. Con una cuchara de madera, agregue 1/2 taza de harina al agua con levadura. Revuelva bien. Agregue otra 1/2 taza y vuelva a revolver. Al incorporar la última media taza de harina, la masa se debe de volver un poco dura y difícil de revolver. Si no es así, agregue otro 1/4 de taza de harina y revuelva.
+Cuando la masa esté lo suficientemente dura para seguir revolviendo, póngala en una superficie limpia y amasela durante 7 minutos. Si la masa esta un poco pegajosa, se puede espolvorear con un poco de harina.
+Ponga un poquito de aceite de oliva en un bowl. Ponga la masa sobre el aceite hasta que esté cubierta. Cubra con una toalla húmeda y deje que se infle hasta que doble su tamaño.
+Una vez que la masa haya doblado su tamaño, amasela otra vez y refrigere entre 6-8 horas para dejar que se infle otra vez.
+Despues de 6-8 hrs en el refrigerador, se puede utilizar la masa. Cortar la masa en el número de pizzas que se piensan preparar y formarla en pizzas. Dejar que llegue a temperatura ambiente antes de hornear.
+Ponles los ingredientes que desees y hornealas 12-15 minutos a 500 F (260° C)
