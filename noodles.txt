@@ -1,4 +1,2 @@
 noodles
-nn
-fe
-fe
+pp
