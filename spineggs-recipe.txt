@@ -1,0 +1,9 @@
+Eggs
+Spinach
+Garlic
+Salt
+Pepper
+
+Saute Spinach with garlic, salt and pepper.
+Scramble egg in to spinach.
+Eat it.
