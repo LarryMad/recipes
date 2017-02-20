@@ -1,0 +1,2 @@
+This is just a test to train the skill of building a new file, commit and push
+to GitHub. Feb 17th 2017 by JSW.
