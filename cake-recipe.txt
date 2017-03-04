@@ -7,6 +7,7 @@ Ingredients:
  - 1 teaspoon salt
  - 2 eggs
  - 1 cup milk
+ - 1/2 This should create conflict while merging.
  - 1/2 cup canola oil/Diffent oil2 banch changed it.
  - 2 teaspoons vanilla extract
  - 1 cup boiling water
