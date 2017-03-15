@@ -1,0 +1,4 @@
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks => direct copy to personal account
+clone => copy local
+branches => new path
