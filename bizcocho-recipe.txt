@@ -1,0 +1,12 @@
+Ingredientes:
+	harina
+	levadura
+	aceite
+	agua
+	yogur
+	azucar
+
+Elaboracion:
+	Precalentar el horno a 200º.
+	Mezclar los ingredientes y colocarlos en el molde.
+	Hornear durante 20 minutos a 180º y dejar reposar.
