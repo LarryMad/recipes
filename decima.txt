@@ -1,0 +1,3 @@
+Write ten verses with the rhyme scheme a b b a a c c d d c, in arte menor (8 syllable verses) with full rhyme.
+If the last syllable is stressed, you count one syllable more.
+If the penultimate syllable is stressed, you count one syllable less.
