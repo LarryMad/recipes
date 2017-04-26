@@ -1,0 +1,8 @@
+Ingredients:
+Cereal
+Milk
+
+First, you open the box of cereal.
+Next, pour it into a bowl.
+Next, pour milk into bowl to desired level.
+Finish
