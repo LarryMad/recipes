@@ -1,0 +1,10 @@
+Ingredients:
+  - 2 minute maggi noodles
+  - a cup of water
+
+Directions:
+  - add a cup of water in a pan.
+  - boil the water.
+  - add maggi noodles and tastemaker.
+  - simmer for 2-5 minutes and stir occasionally.
+  - serve hot.
