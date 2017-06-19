@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Grill chess recipe
 
 lightly toast two slices of bread
@@ -8,3 +9,16 @@ then place the second toast on top
 smash together with spatula
 toast to desired darkness
 flip frequently, not to burn one side
+||||||| merged common ancestors
+=======
+Grill chess recipe
+
+lightly toast two slices of bread
+butter on both sides of each bread
+place one toast in pan
+place two slice of chess
+then place the second toast on top
+smash together with spatula
+toast to desired darkness
+flip frequently
+>>>>>>> ee9634c788f96b1668401efb92d5b7a81bafa54e
