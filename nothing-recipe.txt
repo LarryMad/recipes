@@ -1,0 +1,7 @@
+nothing recipe:
+
+	ingeredients:
+		none.
+
+	preparation:
+		do not do anything and you're done with your nothing :).
