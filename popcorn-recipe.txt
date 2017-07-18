@@ -1,0 +1,7 @@
+Ingredients:
+ - a sack of popcorn
+ - salt
+
+Directions:
+  1. Put the sack in microwave and press the "popcorn" button.
+  2. When finished, drop the popcorn in a bowl and add salt.
