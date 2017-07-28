@@ -1,0 +1,11 @@
+To make a hot dog
+//
+//
+Ingredients: Hot dog, Hot dog bun, condiments.
+//
+//
+//
+Step 1: Cook hotdog
+Step 2: Place hotdog in hotdog bun
+Step 3: Lather it with ketchup, mustard, and relish (or whatever else you prefer)
+Step 4: Consume hotdog
