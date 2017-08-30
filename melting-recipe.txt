@@ -2,19 +2,5 @@ Zutaten:
 enorme Geduld
 ausdauernde Hingabe
 ehrlichen Respekt
-.code
-Zubereitung:
-.nehme.code.
-.nehme.entwicklungsumbung.
-.durchmische.entwicklungsumgebung.mit.code
-.jetzt.geduld.
-.nehme.code.entpacke.anders.
-.nehme.entwicklungsumbegung.mit.code
-.überprüfe.entwicklungsumgebung
-.überprüfe.wahl.des.os
-.starte.kompiliervorgang.
-.uebler.auswurf.
-.uebler.auswurf.
-.uebler.auswurf.
-.ermittele.fehlerquelle.sitzt.wieder.davor.das.muß.aufhoeren
-.restart.initiation.man.machine.com
+.
+Ruhe bewahren.Tee.trinken.  
