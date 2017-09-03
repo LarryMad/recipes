@@ -81,3 +81,997 @@ sowie jsonrpc macros 7
 jsonrpc minihttp-server 7
 jsonrpc ipc server 7
 sauber, sauber, sauber, das scheint mal zu klappen, diese Nacht.
+
+Compiling backtrace v0.3.3
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+  |
+  = note: #[warn(deprecated)] on by default
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:39:77
+   |
+39 | pub fn set_owner<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+   |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:51:73
+   |
+51 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:59:4
+   |
+59 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:66:85
+   |
+66 | pub fn remove_key_server<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+   |                                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:78:73
+   |
+78 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:86:4
+   |
+86 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:93:41
+   |
+93 | pub fn owner<F, U>(&self, call: F, ) -> BoxFuture<(bigint::prelude::H160), String>
+   |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:105:73
+    |
+105 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:118:4
+    |
+118 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:125:51
+    |
+125 | pub fn get_key_servers<F, U>(&self, call: F, ) -> BoxFuture<(Vec<bigint::prelude::H160>), String>
+    |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:137:73
+    |
+137 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:150:4
+    |
+150 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:157:84
+    |
+157 | pub fn key_servers_list<F, U>(&self, call: F, param_0: bigint::prelude::U256, ) -> BoxFuture<(bigint::prelude::H160), String>
+    |                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:169:73
+    |
+169 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:182:4
+    |
+182 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:189:85
+    |
+189 | pub fn add_key_server<F, U>(&self, call: F, param_0: Vec<u8>, param_1: String, ) -> BoxFuture<(), String>
+    |                                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:201:73
+    |
+201 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:209:4
+    |
+209 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:216:90
+    |
+216 | pub fn get_key_server_address<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(String), String>
+    |                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:228:73
+    |
+228 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:241:4
+    |
+241 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:248:89
+    |
+248 | pub fn get_key_server_public<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(Vec<u8>), String>
+    |                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:260:73
+    |
+260 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:273:4
+    |
+273 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:60:75
+   |
+60 | pub fn reserve<F, U>(&self, call: F, param_0: bigint::prelude::H256, ) -> BoxFuture<(bool), String>
+   |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:72:73
+   |
+72 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:85:4
+   |
+85 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:92:68
+   |
+92 | pub fn confirm_reverse<F, U>(&self, call: F, param_0: String, ) -> BoxFuture<(bool), String>
+   |                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:104:73
+    |
+104 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:117:4
+    |
+117 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:124:88
+    |
+124 | pub fn get<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, ) -> BoxFuture<(bigint::prelude::H256), Stri         ng>
+    |                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:136:73
+    |
+136 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:149:4
+    |
+149 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:156:77
+    |
+156 | pub fn set_owner<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+    |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:168:73
+    |
+168 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:176:4
+    |
+176 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:183:76
+    |
+183 | pub fn reserved<F, U>(&self, call: F, param_0: bigint::prelude::H256, ) -> BoxFuture<(bool), String>
+    |                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:195:73
+    |
+195 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:208:4
+    |
+208 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:215:93
+    |
+215 | pub fn get_uint<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, ) -> BoxFuture<(bigint::prelude::U256),          String>
+    |                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:227:73
+    |
+227 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:240:4
+    |
+240 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:247:41
+    |
+247 | pub fn owner<F, U>(&self, call: F, ) -> BoxFuture<(bigint::prelude::H160), String>
+    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:259:73
+    |
+259 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:272:4
+    |
+272 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:279:75
+    |
+279 | pub fn reverse<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(String), String>
+    |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:291:73
+    |
+291 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:304:4
+    |
+304 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:311:72
+    |
+311 | pub fn drop<F, U>(&self, call: F, param_0: bigint::prelude::H256, ) -> BoxFuture<(bool), String>
+    |                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:323:73
+    |
+323 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:336:4
+    |
+336 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:343:41
+    |
+343 | pub fn drain<F, U>(&self, call: F, ) -> BoxFuture<(), String>
+    |                                         ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:355:73
+    |
+355 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:363:4
+    |
+363 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:370:39
+    |
+370 | pub fn fee<F, U>(&self, call: F, ) -> BoxFuture<(bigint::prelude::U256), String>
+    |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:382:73
+    |
+382 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:395:4
+    |
+395 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:402:128
+    |
+402 | pub fn set_address<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, param_2: bigint::prelude::H160, ) ->          BoxFuture<(bool), String>
+    |                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:414:73
+    |
+414 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:427:4
+    |
+427 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:434:120
+    |
+434 | pub fn set<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, param_2: bigint::prelude::H256, ) -> BoxFutu         re<(bool), String>
+    |                                                                                                                        ^^^^^^^         ^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:446:73
+    |
+446 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:459:4
+    |
+459 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:466:96
+    |
+466 | pub fn get_address<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, ) -> BoxFuture<(bigint::prelude::H16         0), String>
+    |                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:478:73
+    |
+478 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:491:4
+    |
+491 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:498:100
+    |
+498 | pub fn propose_reverse<F, U>(&self, call: F, param_0: String, param_1: bigint::prelude::H160, ) -> BoxFuture<(bool), String>
+    |                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:510:73
+    |
+510 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:523:4
+    |
+523 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:530:125
+    |
+530 | pub fn set_uint<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, param_2: bigint::prelude::U256, ) -> Bo         xFuture<(bool), String>
+    |                                                                                                                             ^^         ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:542:73
+    |
+542 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:555:4
+    |
+555 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:562:108
+    |
+562 | pub fn transfer<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: bigint::prelude::H160, ) -> BoxFuture<(bool), S         tring>
+    |                                                                                                            ^^^^^^^^^^^^^^^^^^^         ^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:574:73
+    |
+574 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:587:4
+    |
+587 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:594:50
+    |
+594 | pub fn remove_reverse<F, U>(&self, call: F, ) -> BoxFuture<(), String>
+    |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:606:73
+    |
+606 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:614:4
+    |
+614 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:621:75
+    |
+621 | pub fn set_fee<F, U>(&self, call: F, param_0: bigint::prelude::U256, ) -> BoxFuture<(), String>
+    |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:633:73
+    |
+633 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/registry.rs:641:4
+    |
+641 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:45:121
+   |
+45 | pub fn hint<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, param_2: bigint::prelude::H160, ) -> BoxFutu         re<(), String>
+   |                                                                                                                         ^^^^^^^         ^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:57:73
+   |
+57 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:65:4
+   |
+65 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:72:93
+   |
+72 | pub fn hint_url<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: String, ) -> BoxFuture<(), String>
+   |                                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:84:73
+   |
+84 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:92:4
+   |
+92 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:99:74
+   |
+99 | pub fn unhint<F, U>(&self, call: F, param_0: bigint::prelude::H256, ) -> BoxFuture<(), String>
+   |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:111:73
+    |
+111 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:119:4
+    |
+119 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:126:75
+    |
+126 | pub fn entries<F, U>(&self, call: F, param_0: bigint::prelude::H256, ) -> BoxFuture<(String, bigint::prelude::H160, bigint::pr         elude::H160), String>
+    |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:138:73
+    |
+138 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/urlhint.rs:161:4
+    |
+161 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:51:93
+   |
+51 | pub fn get_uint<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: String, ) -> BoxFuture<(bigint::prelude::U256),          String>
+   |                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:63:73
+   |
+63 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:76:4
+   |
+76 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:83:88
+   |
+83 | pub fn get<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: String, ) -> BoxFuture<(bigint::prelude::H256), Strin         g>
+   |                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:95:73
+   |
+95 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:108:4
+    |
+108 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:115:77
+    |
+115 | pub fn certified<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(bool), String>
+    |                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:127:73
+    |
+127 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:140:4
+    |
+140 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:147:80
+    |
+147 | pub fn set_delegate<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+    |                                                                                ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:159:73
+    |
+159 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:167:4
+    |
+167 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:174:77
+    |
+174 | pub fn set_owner<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+    |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:186:73
+    |
+186 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:194:4
+    |
+194 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:201:96
+    |
+201 | pub fn get_address<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: String, ) -> BoxFuture<(bigint::prelude::H16         0), String>
+    |                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^         ^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:213:73
+    |
+213 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:226:4
+    |
+226 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:233:44
+    |
+233 | pub fn delegate<F, U>(&self, call: F, ) -> BoxFuture<(bigint::prelude::H160), String>
+    |                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:245:73
+    |
+245 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:258:4
+    |
+258 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:265:75
+    |
+265 | pub fn certify<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+    |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:277:73
+    |
+277 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:285:4
+    |
+285 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:292:74
+    |
+292 | pub fn revoke<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+    |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:304:73
+    |
+304 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:312:4
+    |
+312 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:319:41
+    |
+319 | pub fn owner<F, U>(&self, call: F, ) -> BoxFuture<(bigint::prelude::H160), String>
+    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:331:73
+    |
+331 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/service_transaction.rs:344:4
+    |
+344 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/secretstore_acl_storage.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/secretstore_acl_storage.rs:42:117
+   |
+42 | pub fn check_permissions<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: bigint::prelude::H256, ) -> BoxFuture<(         bool), String>
+   |                                                                                                                     ^^^^^^^^^^^         ^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/secretstore_acl_storage.rs:54:73
+   |
+54 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/secretstore_acl_storage.rs:67:4
+   |
+67 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:44:50
+   |
+44 | pub fn get_validators<F, U>(&self, call: F, ) -> BoxFuture<(Vec<bigint::prelude::H160>), String>
+   |                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:56:73
+   |
+56 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:69:4
+   |
+69 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:76:51
+   |
+76 | pub fn finalize_change<F, U>(&self, call: F, ) -> BoxFuture<(), String>
+   |                                                   ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:88:73
+   |
+88 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_set.rs:96:4
+   |
+96 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:43:134
+   |
+43 | pub fn report_malicious<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: bigint::prelude::U256, param_2: Vec<u8>,          ) -> BoxFuture<(), String>
+   |                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:55:73
+   |
+55 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:63:4
+   |
+63 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:70:113
+   |
+70 | pub fn report_benign<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: bigint::prelude::U256, ) -> BoxFuture<(), S         tring>
+   |                                                                                                                 ^^^^^^^^^^^^^^^         ^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:82:73
+   |
+82 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/validator_report.rs:90:4
+   |
+90 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/peer_set.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/peer_set.rs:40:182
+   |
+40 | pub fn connection_allowed<F, U>(&self, call: F, param_0: bigint::prelude::H256, param_1: bigint::prelude::H256, param_2: bigint         ::prelude::H256, param_3: bigint::prelude::H256, ) -> BoxFuture<(bool), String>
+   |                                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/peer_set.rs:52:73
+   |
+52 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/peer_set.rs:65:4
+   |
+65 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:47:81
+   |
+47 | pub fn report_benign<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+   |                                                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:59:73
+   |
+59 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:67:4
+   |
+67 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:74:87
+   |
+74 | pub fn set_validators<F, U>(&self, call: F, param_0: Vec<bigint::prelude::H160>, ) -> BoxFuture<(), String>
+   |                                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:86:73
+   |
+86 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:94:4
+   |
+94 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:101:50
+    |
+101 | pub fn get_validators<F, U>(&self, call: F, ) -> BoxFuture<(Vec<bigint::prelude::H160>), String>
+    |                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:113:73
+    |
+113 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:126:4
+    |
+126 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:133:51
+    |
+133 | pub fn finalize_change<F, U>(&self, call: F, ) -> BoxFuture<(), String>
+    |                                                   ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:145:73
+    |
+145 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:153:4
+    |
+153 |           .boxed()
+    |            ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:160:102
+    |
+160 | pub fn report_malicious<F, U>(&self, call: F, param_0: bigint::prelude::H160, param_1: Vec<u8>, ) -> BoxFuture<(), String>
+    |                                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:172:73
+    |
+172 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+    |                                                                                 ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/test_validator_set.rs:180:4
+    |
+180 |           .boxed()
+    |            ^^^^^
+
