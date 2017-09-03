@@ -1098,8 +1098,6 @@ Compiling ethstore v0.1.0 (file:///home/mint/parity/ethstore)
 der dauert aber auch erfahrungsgemäß ein wenig länger,
 bei vorherigen Versuchen ah ja, doch wieder der Hinweis auf das box
 
-
-
 Compiling backtrace v0.3.3
 warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:3:43
@@ -1191,3 +1189,54 @@ und ob ein binary geschrieben werden kann und wenn warum nicht.
 
 Price info dauert auch wieder deutlich länger-
 aber beginnt zunächst ohne die boxed Meldung. Bin einigermaßen gespannt wie das hier weitergeht.
+
+Mir fällt gerade auf, daß die alte instanz 1.7.0beta noch läuft und die foundation.chain hält.
+
+Ich lasse diese laufen, weil ich ein inline Update bzw. die Möglichkeit ausprobieren möchte. 
+
+Als ein Inline.update verstehe ich als start der neuen version aus dem release verzeichnis,
+und zu schauen, ob dieser Schritt die config.file verarbeiten kann.
+
+Weiterhin interessant, ob die bisher geladenen Anteile der Chain verwendet werden können.
+Danach kommen die Tests auf die anderen Chains insbesondere diesmal chain 42, deren Anwesenheit ich 
+bemerkt habe unter https://www.ethernodes.org/network/42-
+
+Im weiteren stehen Testläufe im Bereich PoA an. Auch da brauche ich informationen, wie man sich auf diese Netze einklinkt.
+
+nach gefühlten 20 minuten allein für price info geht es weiter mit
+parity.ui 1.8.0 die neueste version des multi.chain.wallets
+
+das dürfte allerdings diesmal richtig lange dauern- es ist 1:45- 
+laune mäßig, stimmung gut, zuversicht steigt (aka ich kann den Braten riechen)
+
+und geht auch zackig weiter ... 
+node.filer 1.8.0
+sowie parity-local-store 0.1.0
+parity-ipfs-api 1.8.0
+parity-dapps 1.8.0- 1.51 uhr
+
+unterbrochen von reichlichen Hinweisen wie den folgenden 
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more details                                                                                                  in #228
+  --> /home/mint/parity/rpc/src/v1/traits/traces.rs:47:87
+   |
+47 |            fn call(&self, Self::Metadata, CallRequest, TraceOptions, Trailing<BlockNumber>) -> BoxFuture<TraceResults, Error>;
+   |  _______________________________________________________________________________________^
+48 | |
+49 | |          /// Executes all given calls and returns a number of possible traces for each of it.
+50 | |          #[rpc(meta, name = "trace_callMany")]
+...  |
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more details                                                                                                  in #228
+  --> /home/mint/parity/rpc/src/v1/traits/traces.rs:51:99
+   |
+51 |            fn call_many(&self, Self::Metadata, Vec<(CallRequest, TraceOptions)>, Trailing<BlockNumber>) -> BoxFuture<Vec<TraceResults>,                                                                                                  Error>;
+   |  ___________________________________________________________________________________________________^
+52 | |
+53 | |          /// Executes the given raw transaction and returns a number of possible traces for it.
+54 | |          #[rpc(name = "trace_rawTransaction")]
+...  |
+
+
+geht so - ist auch schon 1:58 ...
+
