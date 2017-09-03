@@ -3,4 +3,66 @@ enorme Geduld
 ausdauernde Hingabe
 ehrlichen Respekt
 .
-Ruhe bewahren.Tee.trinken.  
+Ruhe bewahren.Tee.trinken.  wieder mal anfangen-
+
+heute ich compiliere mal wieder
+
+libtinykeccak klemmt als erstes
+
+macht tendenziell Schwierigkeiten
+
+Die Reihenfolge beim manuellen compilen beachten
+Beobachtungen erste Schritte auf einem "raw.system"
+Insbesondere auffällig
+
+die beiden Pakete
+crate "time"
+und 
+crate "libc" 
+
+die wollen nicht so, wie ich es gerne hätte, mein System so "hey, stell Dich nicht so an,
+guck mal eben nach, wo was fehlt"- wenn gar nichts geht mal schauen, was denn jetzt in Docker vielleicht
+so rumliegt.
+
+Weiterhin
+ethcore-util macht auch nervigen ärger in zusammenhang 
+mit crate time & libc
+
+wechsel  in den util bereich
+
+benches zuerst
+da geht alles. manual cargo build hinterher im Util Bereich.
+wieder errors- also clean. naaa ja.. morgen gehts weiter.
+
+Leichter Brechreiz gepaart mit grimmigen "Dir werd ich das schon zeigen, Du 
+kleine Blechschachtel- Kaffee lecker zubereitet, es ist wieder mal morgens.
+
+Bei weiteren Fehlern beim Compilen in unterschiedlichen directorys geht
+es auch um das regelmäßige Aktualisieren von npm-
+
+das Kommando npm i -g npm klärt alle ungelösten dependencies recht zuverlässig auf.
+Was nicht heißt, daß danach alles supi abläuft.
+
+Hier gibt es den guten shit, falls was klemmt.
+https://www.npmjs.com/search?q=parity
+
+cargo build clean, wenn mal wieder schief ging um sicher zu sein, 
+um keine "Leichenhalle" zu erzeugen.
+
+Sonst einfach wieder ein Directory höher, 
+entweder nach Reihenfolge wie für den Raspi2.plus
+oder nach Alphabet.
+
+Wieso beim compilen zweimal rayon (071-082) verwendet wird versteh ich nicht, sieht nur komisch im ersten augenblick so aus.
+
+Erneute Problem a la "warning: use of deprecated item
+  --> /home/mint/parity/util/hash/build.rs:24:5
+   |
+24 |     gcc::compile_library("libtinykeccak.a", &["src/tinykeccak.c"]);
+   |     ^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: #[warn(deprecated)] on by default
+"
+
+
+ 
