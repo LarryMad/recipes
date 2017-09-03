@@ -1075,3 +1075,118 @@ warning: use of deprecated item: removed without replacement, recommended to use
 180 |           .boxed()
     |            ^^^^^
 
+
+aber auch nach dieser klitzekleinen Orgie an Fehlerauswürfen geht´s schon wieder weiter 
+mit
+
+Compiling ethcore-ipc-hypervisor v1.2.0 (file:///home/mint/parity/ipc/hypervisor)
+Compiling ipc-common-types v1.8.0 (file:///home/mint/parity/ipc-common-types)
+Compiling ethcore v1.8.0 (file:///home/mint/parity/ethcore)
+Compiling parity-updater v1.8.0 (file:///home/mint/parity/updater)
+Compiling ethcore-stratum v1.8.0 (file:///home/mint/parity/stratum)
+Compiling ethsync v1.8.0 (file:///home/mint/parity/sync)
+Compiling zip v0.1.19
+Compiling native-tls v0.1.4
+Compiling cid v0.2.2
+Compiling ethcrypto v0.1.0 (file:///home/mint/parity/ethcrypto)
+Compiling hardware-wallet v1.8.0 (file:///home/mint/parity/hw)
+Compiling error-chain v0.5.0
+Compiling panic_hook v0.1.0 (file:///home/mint/parity/panic_hook)
+Compiling hyper-native-tls v0.2.4
+Compiling ethstore v0.1.0 (file:///home/mint/parity/ethstore)
+
+der dauert aber auch erfahrungsgemäß ein wenig länger,
+bei vorherigen Versuchen ah ja, doch wieder der Hinweis auf das box
+
+
+
+Compiling backtrace v0.3.3
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+ --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:3:43
+  |
+3 | use futures::{future, Future, IntoFuture, BoxFuture};
+  |                                           ^^^^^^^^^
+  |
+  = note: #[warn(deprecated)] on by default
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:39:77
+   |
+39 | pub fn set_owner<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+   |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:51:73
+   |
+51 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:59:4
+   |
+59 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:66:85
+   |
+66 | pub fn remove_key_server<F, U>(&self, call: F, param_0: bigint::prelude::H160, ) -> BoxFuture<(), String>
+   |                                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:78:73
+   |
+78 |            Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+   |                                                                                  ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:86:4
+   |
+86 |            .boxed()
+   |             ^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+  --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:93:41
+   |
+93 | pub fn owner<F, U>(&self, call: F, ) -> BoxFuture<(bigint::prelude::H160), String>
+   |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more          details in #228
+   --> /home/mint/parity/target/release/build/native-contracts-cf0f168dab93e714/out/key_server_set.rs:105:73
+    |
+105 |           Err(e) => return future::err(format!("Error encoding call: {:?}", e)).boxed(),
+
+gefolgt von
+
+Compiling common-types v0.1.0 (file:///home/mint/parity/ethcore/types)
+   Compiling ethcore-network v1.8.0 (file:///home/mint/parity/util/network)
+   Compiling ntp v0.2.0
+   Compiling reqwest v0.6.2
+
+
+sowie
+
+ Compiling ethcore-ipc-nano v1.8.0 (file:///home/mint/parity/ipc/nano)
+   Compiling vm v0.1.0 (file:///home/mint/parity/ethcore/vm)
+
+
+beim weiteren Compiling von Compiling ethcore-ipc v1.8.0 (file:///home/mint/parity/ipc/rpc)
+   Compiling common-types v0.1.0 (file:///home/mint/parity/ethcore/types)
+   Compiling ethcore-network v1.8.0 (file:///home/mint/parity/util/network)
+   Compiling ntp v0.2.0
+   Compiling reqwest v0.6.2
+   Compiling ethcore-ipc-nano v1.8.0 (file:///home/mint/parity/ipc/nano)
+   Compiling vm v0.1.0 (file:///home/mint/parity/ethcore/vm)
+   Compiling parity-whisper v0.1.0 (file:///home/mint/parity/whisper)
+zunächste kein weiteres generve um die BoxFuture Einträge-
+
+geht aber weiter mit evm v010
+gefolgt von wasm 0.1.0
+
+...boah dauert wieder.......
+und wieder Theater diesmal in hash.fetch wieder das oben erwähnte Boxen.Gedöns
+
+geht aber weiter mit price.info 1.7.0 ist auch schon 1.21, mal gucken, wie lange es diesmal dauert,
+und ob ein binary geschrieben werden kann und wenn warum nicht.
+
+
