@@ -1189,4 +1189,5 @@ und wieder Theater diesmal in hash.fetch wieder das oben erwähnte Boxen.Gedöns
 geht aber weiter mit price.info 1.7.0 ist auch schon 1.21, mal gucken, wie lange es diesmal dauert,
 und ob ein binary geschrieben werden kann und wenn warum nicht.
 
-
+Price info dauert auch wieder deutlich länger-
+aber beginnt zunächst ohne die boxed Meldung. Bin einigermaßen gespannt wie das hier weitergeht.
