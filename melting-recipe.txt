@@ -1,15 +1,16 @@
 Zutaten:
 enorme Geduld
 ausdauernde Hingabe
-ehrlichen Respekt
+ehrlichen Respekt.
+Ausdauer.
 .
 Ruhe bewahren.Tee.trinken.  wieder mal anfangen-
 
-heute ich compiliere mal wieder
+"heute ich compiliere mal wieder"
 
 libtinykeccak klemmt als erstes
 
-macht tendenziell Schwierigkeiten
+macht tendenziell Schwierigkeiten-zumindest häufig am Anfang des 
 
 Die Reihenfolge beim manuellen compilen beachten
 Beobachtungen erste Schritte auf einem "raw.system"
@@ -55,7 +56,8 @@ oder nach Alphabet.
 
 Wieso beim compilen zweimal rayon (071-082) verwendet wird versteh ich nicht, sieht nur komisch im ersten augenblick so aus.
 
-Erneute Problem a la "warning: use of deprecated item
+Erneutes Problem a la 
+"warning: use of deprecated item
   --> /home/mint/parity/util/hash/build.rs:24:5
    |
 24 |     gcc::compile_library("libtinykeccak.a", &["src/tinykeccak.c"]);
@@ -64,5 +66,5 @@ Erneute Problem a la "warning: use of deprecated item
    = note: #[warn(deprecated)] on by default
 "
 
-
+aber es geht weiter.
  
