@@ -66,5 +66,18 @@ Erneutes Problem a la
    = note: #[warn(deprecated)] on by default
 "
 
-aber es geht weiter.
+Aber es geht weiter.
  
+Wieder reichlich wartezeit bei den tokio Paketen, aber lieber lang und ordentlich und erfolgreich, als schnell und falsch.
+Keine Blamage in dieser Passage,
+
+libtinykeccak scheint depreceated- gerade den Eintrag gefunden, mal am Ende schauen, ob das zu echten Problemen
+führt- ich brauche diesen 1.8er client 8-) und die frisch kompilierten binaries kann ich ja auch auf meinen Windows hosts nachtesten.
+
+wir werden sehen, jsonrpc-http sowie ws und tcp server laufen ohne zicken durch.
+
+Anschließend wasm-utils
+sowie jsonrpc macros 7
+jsonrpc minihttp-server 7
+jsonrpc ipc server 7
+sauber, sauber, sauber, das scheint mal zu klappen, diese Nacht.
