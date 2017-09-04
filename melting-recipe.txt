@@ -1289,3 +1289,14 @@ reicht.
 dann eben später.
 durch einen zufall auch noch die session verloren, mit der der compile vorgang gestartet wurde,
 also eh logfile surfen.
+
+11:15 eine Durchsicht offenbart mir, daß der Vorgang irgendwann gegen 2 Uhr schon keine Ergbnisse erbracht hat-
+also gleich noch mal das gute alte 
+cargo run gestartet- mal schauen, wohin uns dies führt.
+
+ethcore-ipc-condegen fängt sofort an zu kompilieren-
+ und wieder errors 
+ 
+ diesmal rustc_serializeund log-
+ could not compile ethcore-ipc-codegen- damit haben wir eine Quelle für 
+ Fragen.
