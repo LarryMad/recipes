@@ -1240,3 +1240,13 @@ warning: use of deprecated item: removed without replacement, recommended to use
 
 geht so - ist auch schon 1:58 ...
 
+die folgende Meldung kennen wir ja schon
+
+warning: use of deprecated item: removed without replacement, recommended to use a local extension trait or function if needed, more details in #228
+  --> /home/mint/parity/rpc_client/src/signer_client.rs:36:48
+   |
+36 |    pub fn reject_request(&mut self, id: U256) -> BoxFuture<Result<bool, RpcError>, Canceled> {
+   |                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+aber ohne weitere Meldungen geht mein System 
+mit compiling rpc-cli 1.4.0
