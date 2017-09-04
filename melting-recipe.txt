@@ -6,16 +6,21 @@ Ausdauer.
 .
 Ruhe bewahren.Tee.trinken.  wieder mal anfangen- in Ruhe nachschauen, was nicht gut gelaufen ist.
 
-"heute ich compiliere mal wieder" Start: 23 Uhr 23 Minuten. diesmal ein 64bit System.
+"heute ich compiliere mal wieder" Start: Sonntag 23 Uhr 23 Minuten. diesmal ein 64bit System.
 mode. kompilieren in Rust. 
 keine cargo.updates vorher eingespielt.
 rust.version 1.19
 cargo.version 1.19
+--> Spoiler- > bin fertig .Montag 04.09.2017-17:28
+es ist "erzeugt"
 
+Aber zurück zum Anfang,
+nach einem schelmisch eingegebenen cargo build --release
+kommen Warnings-
 
 libtinykeccak klemmt als erstes
 
-macht tendenziell Schwierigkeiten-zumindest häufig am Anfang des 
+macht tendenziell Schwierigkeiten-zumindest häufig am Anfang des Vorgangs
 
 Die Reihenfolge beim manuellen compilen beachten
 Beobachtungen erste Schritte auf einem "raw.system"
