@@ -1302,3 +1302,19 @@ ethcore-ipc-condegen fängt sofort an zu kompilieren-
  Fragen.
  
  
+Nächster Tag, 
+
+wieder erst mal überprüfen was ging, wann gestoppt wurde,
+aber im Logfile- irgendwann 3.55 ist dann der rust einfach abgeschmiert,
+heute geht`s mit einem erfrischenden
+cargo clean im parity Verzeichnis los.
+Diesmal wende ich die Strategie locked an, 
+das kann zu besseren aber auch 
+cargo build --locked
+
+bringt dann auch ein Ergebnis, aber im Gegensatz zu "sonst"
+eine Meldung wie:
+Finished dev [unoptimized + debuginfo] target(s) in 10072.88 secs
+
+und vor allem das Binary ist 312,5 MB groß,
+aber ich habe zumindest eine aktuelle Version.
