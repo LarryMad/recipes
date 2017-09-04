@@ -1297,6 +1297,8 @@ cargo run gestartet- mal schauen, wohin uns dies führt.
 ethcore-ipc-condegen fängt sofort an zu kompilieren-
  und wieder errors 
  
- diesmal rustc_serializeund log-
+ diesmal rustc_serialize und log-
  could not compile ethcore-ipc-codegen- damit haben wir eine Quelle für 
  Fragen.
+ 
+ 
