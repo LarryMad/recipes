@@ -4,9 +4,14 @@ ausdauernde Hingabe
 ehrlichen Respekt.
 Ausdauer.
 .
-Ruhe bewahren.Tee.trinken.  wieder mal anfangen-
+Ruhe bewahren.Tee.trinken.  wieder mal anfangen- in Ruhe nachschauen, was nicht gut gelaufen ist.
 
-"heute ich compiliere mal wieder"
+"heute ich compiliere mal wieder" Start: 23 Uhr 23 Minuten. diesmal ein 64bit System.
+mode. kompilieren in Rust. 
+keine cargo.updates vorher eingespielt.
+rust.version 1.19
+cargo.version 1.19
+
 
 libtinykeccak klemmt als erstes
 
@@ -1274,3 +1279,13 @@ unter mint laufend, diesmal mit einem quasi-"neuen" 64er Unterbau.
 
 rpc-cli v.1.4.0 dauert auch diese "Session" richtig lange- 2:42 zeigt die Uhr.
 
+inzwischen dann doch schon 3:19-
+zieht sich- Motivation gleichbleibend mäßig.
+Rust meldet sich im 2. terminal immer noch unter top,
+die rpc.cli hat es in sich-
+
+3.49 Uhr. 
+reicht.
+dann eben später.
+durch einen zufall auch noch die session verloren, mit der der compile vorgang gestartet wurde,
+also eh logfile surfen.
