@@ -1322,4 +1322,24 @@ eine Meldung wie:
 Finished dev [unoptimized + debuginfo] target(s) in 10072.88 secs
 
 und vor allem das Binary ist 312,5 MB groß,
-aber ich habe zumindest eine aktuelle Version.
+aber ich habe jetzt eine aktuelle Version.
+Nach 2 Anläufen jetzt auf jeden Fall eine ausführbare Datei-
+
+debug.mode
+
+Also der erste Eindruck ist gut,
+es startet sauber im 1.8er Mode, synchronisiert sauber die Testchain kovan.
+Durch das manuell gesetzte nicht warpen sind wir schon 3 Stunden unterwegs.
+
+Was mich ein bisserl irritiert, ist der Fakt, daß im Channel fast keiner von den normalen Admins ist,
+wieder Fragen zur Verwendung von synchronisierter Zeit in asychronen agierenden Netzwerken mit Beantwortung
+sowohl über die Eintragung in der toml als auch das Basiscommando ntpq -p. Das geht auch wenn denn 
+der Time.Server aktiviert wurde und fehlerfrei läuft.
+
+"Eine aktuelle Zeit zu haben, ist genau so wichtig, wie ein gutes Passwort für die Wallet."
+Klingt wie von Großmuttern, ist mir aber seit spätestens 1998 eine absolute Gewissheit seit erster Linux Installation spätestens. Der Hinweis kam von einem Novell.Administrator der Heinz hieß und absolut spaßbefreit unterwegs war und immer Recht hatte.
+
+Was besonders interessant am Betrieb von parity 1.8 im Kontext mit der Testchain Kovan ist, daß das Requesten von
+Faucet Ethern direkt nach der Erzeugung anbietet. Dafür klappt im ersten Anlauf leider nicht einen Account über die gui zu erzeugen. Schauen wir mal, wie es aussieht, wenn die Chain sync ist und das System neu starten durfte.
+Im Laufe des Abends einfach auch mal ein leckeres Apt.get update hinterhergeschoben, einfach weils jeden Tag notwendig ist, nachzuschauen, ob wichtige Änderungen einzuspielen sind.
+
