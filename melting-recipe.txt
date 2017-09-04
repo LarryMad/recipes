@@ -1257,5 +1257,20 @@ das auch am Sonntagabend noch, doch nicht so schlau, aber ich möchte
 auch langsam mal dahin kommen, eine dapp und einen dazu gehörenden smart-contract zu designen.
 
 Ich halte diese Art der Basisarbeit dennoch für enorm wichtig,
-mit Whisper möchte ich auch ein ausprobieren, wie zügig die Netzstrukturen funktionieren,
+auch unter dem Aspekt der Interoperabilität und Dauerhaftigkeit.
+
+Mit Whisper möchte ich auch ein ausprobieren, wie zügig die Netzstrukturen funktionieren,
 ebenfalls einen kurzen Test mit Swarm in der aktuellen Version.
+
+Einen täglich verteilten aktuellen build.status für die 
+jeweilige nightly.build
+und die jeweiligen plattformen sowie die Fehlermeldungen beim compilen
+Ausgezeichnet wäre natürlich eine multi.core.cloud.instanz mit gerne enormem disc.space-
+
+bei 2:26 ist meine Motivation gerade bisserl abgesackt-
+Die Erschöpfung aus den weiteren Aktivitäten gesellen sich zu den bisherigen 2 Stunden des
+Kompilierens auf einem nicht allzu alten Notebooks mit intel prozessor
+unter mint laufend, diesmal mit einem quasi-"neuen" 64er Unterbau.
+
+rpc-cli v.1.4.0 dauert auch diese "Session" richtig lange- 2:42 zeigt die Uhr.
+
