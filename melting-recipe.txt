@@ -1249,4 +1249,13 @@ warning: use of deprecated item: removed without replacement, recommended to use
    |                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 aber ohne weitere Meldungen geht mein System 
-mit compiling rpc-cli 1.4.0
+mit compiling rpc-cli 1.4.0 
+weiter
+
+Vielleicht war die idee sich so auf anstehende gespräche vorzubereiten und
+das auch am Sonntagabend noch, doch nicht so schlau, aber ich möchte 
+auch langsam mal dahin kommen, eine dapp und einen dazu gehörenden smart-contract zu designen.
+
+Ich halte diese Art der Basisarbeit dennoch für enorm wichtig,
+mit Whisper möchte ich auch ein ausprobieren, wie zügig die Netzstrukturen funktionieren,
+ebenfalls einen kurzen Test mit Swarm in der aktuellen Version.
