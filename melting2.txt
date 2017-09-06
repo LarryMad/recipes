@@ -1,13 +1,17 @@
 ja, schon wieder schreiben.... und lesen müssen, aber was soll`s-
 die Nachwelt will es wissen:
 
-also compilen zum abgewöhnen.... 
-wollen wir mal hoffen, daß ich per screen draufkomme.
+also compilen zum abgewöhnen.... die 3.te
+
+
+wollen wir mal hoffen, 
+daß ich per screen draufkomme.
 
 Vorgeschichte- einen stabilen debug.build habe ich schon,
 kam aber auf die sensationelle idee, das Ganze gleich noch mal zu
 machen, diesmal aber schon release"mäßig"-
 hat ein wenig gendauert (5850 sek) aber war dann auch successful.
+
 Die erzeugte binary ist mit 41000 kB auch deutlich kleiner als die debug,
 aber das war zu erwarten, da der compiler optimized (wenn alles gut läuft und nicht gerade Vollmond ist,wie es anscheinend gestern war)
 und die binary ja auch stript.
