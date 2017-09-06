@@ -17,3 +17,34 @@ Also als erstes rauf per ssh und mit screen -ls nachschauen, welche "Sessions" n
 
 nein, ich unterbreche- eine schicke Fotografin hat zurückgeschrieben und ich kenne meine Präferenzen.
 Sorry für alle- vielleicht später mehr.
+
+war nichts...wichtiges... wollen hoffen, daß das spannender wird- jetzt weiter im Text:
+Screen session wiedergefunden und mit screen -R (sessionnummer)
+rauf auf die session:
+
+da stehen noch folgende zeichen
+
+Downloading serde_ignored v0.0.4
+ Downloading tokio-proto v0.1.1
+   Compiling serde_ignored v0.0.4
+   Compiling evmjit v1.8.0 (file:///home/mint/parity/evmjit)
+error: the linked panic runtime `panic_unwind` is not compiled with this crate's panic strategy `abort`
+
+error: aborting due to previous error
+
+error: Could not compile `evmjit`.
+
+
+Das nehme ich erst mal so hin.. und schaue- also
+"er" hat evmjit nicht compilen können, weil die verbundene panic runtime nicht mit der crate panic strategie blaaaaaa
+
+unschön das- bin am überlegen, 
+entweder panic-runtime anpassen (also rausnehmen, was zu Theater führt)
+oder clean
+oder den gesamten Laden "locken"
+vielleicht auch ein kleines "frozen".... wir schauen mal, 
+da wir nicht in Eile sind, geht zunächst ein cargo.update
+dann ein lock und dann wollen wir doch mal sehen, wohin die Reise geht.
+Ausgehend von der Prämisse, daß wir bereits ein debug.binary haben und uns auch 
+die release variante erzeugt wurde, sind dies wieder anteilig, "Reiseberichte eines compiling.Interessierten"
+So wie es heute regnet, wird es wohl auch dabei bleiben.
