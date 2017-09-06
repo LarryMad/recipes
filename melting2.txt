@@ -2,7 +2,7 @@ ja, schon wieder schreiben.... und lesen müssen, aber was soll`s-
 die Nachwelt will es wissen:
 
 also compilen zum abgewöhnen.... 
-wollen wir mal hoffen, daß ich per screen draufkommen.
+wollen wir mal hoffen, daß ich per screen draufkomme.
 
 Vorgeschichte- einen stabilen debug.build habe ich schon,
 kam aber auf die sensationelle idee, das Ganze gleich noch mal zu
