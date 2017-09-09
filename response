@@ -7,14 +7,9 @@ das programmerle grillt die cpu- aber da muß sie durch-
 auf dem pi wird das hoffentlich nicht so-> da deaktivieren wir ja ohnehin das warpen.dauert dann #länger.tm# aber das macht dort 
 nichts.
 
-überlegug -- test- compile&sync auf tranport~cluster (skalierbarkeit-vergleich in der rechenleistung-sync-speed)
-
 beim übersetzen wieder das theater mit wasm
-
 wechseln ins ethcore vz und dann erneutes --locked --verbose
-
 dann geht wasm danach ethcore_util-
-
 hardware_wallet läuft sauber durch.
 common_types auch
 ethcore_ipc ebenfalls
@@ -23,6 +18,7 @@ hyper-native-tls
 zwischengedanke.
 heute nacht den 32bittigen (1.7) fast in einer schleife gehabt, dauerhaftes starten des "richte dir doch ein konto ein"-shit
 was auch immer da los ist oder war- der warp.speed ist weg..... ja, was soll denn das?
+
 .zurück im haupt
 >wieder der dämliche boxed.fehler-> bei ethcore_stratum
 use of depreciated item-> remove without replacement
@@ -71,11 +67,16 @@ note: Perhaps two different versions of crate `parity_wasm` are being used?
 117 |                   let module_instance = self.program.add_module("contract", contract_module, Some(&execution_params.externals))
     |                                                                             ^^^^^^^^^^^^^^^
 error: aborting due to 2 previous errors
-vielleicht sollte ich das wasm verzeichnis genauer anschauen. morgen. ich wollte das auch nicht mehr tun, aber
-wenn die einzige company mit nem schnellen client jetzt änderungen einspielt, die den client in seiner laufzeit negativ beeinflussen, werde
+
+vielleicht sollte ich das wasm verzeichnis genauer anschauen. morgenheutemorgengleich. ich wollte das auch nicht mehr tun, aber
+wenn die einzige company mit nem schnellen client jetzt änderungen einspielt, die den client in seiner
+laufzeit negativ beeinflussen, sollte zumindest das manuelle übersetzen nicht einen solchen brechreiz erzeugen,
+wie derzeit.
 
 wasm genauer angeschaut,
-besteht aus wam-uils und wasm- //! Experimental build tool for cargo sagt die rust.datei- na Danke auch.
+besteht aus wam-uils und wasm- (der Verpackungshinweis eröffnet: //! Experimental build tool for cargo)
+na Danke auch.
+
 Aus dem wasm utils geht wenigstens hervor was er denn braucht zum leben[dependencies]
 parity-wasm = "0.14"
 log = "0.3"
@@ -95,11 +96,17 @@ mache ich es, dafür aber in meiner sprache.
 Wasm wird in js verwendet sagt mir die suche, also schauen wir uns für finale schnellere erreichen das vz "js"  erneut an,
 vielleicht habe ich dort ja was vergessen.
 
+ja, ist vielleicht auch schlau noch mal darüber nachzudenken, ob parity und compile auf der selben schnarchkiste ne gute
+idee sind, aber hey, ist samstag, habe zeit und auch keinen druck mehr, daß es unbedingt "gut" läuft.
 
+mich kribbelt bei der geschichte immer noch ein wenig, daß ich nicht weiß, warum die absage erfolgte.
 
+egal, wenn es sich ergibt, lächel ich über den moment des empfanges und denk mir dabei, daß es vermutlich auch 
+sehr teuer geworden wäre, qm.talk und zusätzlich ushort/short/full/extendet install.compile.operating.advice 
+zeitnah-reviewed-signed über swarm zu verteilen. das wissen über bestimmte teilbereiche allein den eigenen leuten 
+oder fans zu überlassen, ist eine heikle sache zumal mit der software werte übertragen werden sollen.
+wie schon im anhalter erwähnt ist das wohl das PAL
 
-
-
-
+"https://de.wikipedia.org/wiki/Hintergr%C3%BCnde_zu_Per_Anhalter_durch_die_Galaxis#Problem-anderer-Leute-Feld
 
 
