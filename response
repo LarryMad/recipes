@@ -1,37 +1,30 @@
 ja, ab version 1.7 tickt die software absolut nicht mehr zügig.
 
-afri hatte recht.
-
 die abnormitäten nehmen zu- 
-comment:die warp. geschwindigkeit ist schon mit 1.7 geschichte.
-3 Tage und noch keiner der beiden nodes sync.
-zwischen 2.000.0000 und 2.200.000 außergewöhnliche performanceeinbußen-
-auch mika hatte recht-
-das programmerle grillt die cpu- aber da muß sie durch-
-auf dem pi wird das hoffentlich nicht so.
+comment:die warp. geschwindigkeit ist schon mit 1.7 geschichte. 3 Tage und noch keiner der beiden nodes sync.
+zwischen 2.000.0000 und 2.200.000 außergewöhnliche performanceeinbußen- Afri hatte als erster Recht aber auch mika hatte recht-
+das programmerle grillt die cpu- aber da muß sie durch- 
+auf dem pi wird das hoffentlich nicht so-> da deaktivieren wir ja ohnehin das warpen.dauert dann #länger.tm# aber das macht dort 
+nichts.
 
-test- compile&sync auf cluster (skalierbarkeit-vergleich in der rechenleistung-sync-speed)
+überlegug -- test- compile&sync auf tranport~cluster (skalierbarkeit-vergleich in der rechenleistung-sync-speed)
 
 beim übersetzen wieder das theater mit wasm
 
 wechseln ins ethcore vz und dann erneutes --locked --verbose
 
-dann geht wasm
-
-danach ethcore_util-
+dann geht wasm danach ethcore_util-
 
 hardware_wallet läuft sauber durch.
 common_types auch
 ethcore_ipc ebenfalls
 hyper-native-tls
 
-heute nacht den 32bittigen (1.7) fast in einer schleife gehabt,
-dauerhaftes starten des "richte dir doch ein konto ein"-shit
-was auch immer da los ist oder war- der warp.speed ist weg..... 
-ja, was soll denn das?
-
-wieder der dämliche boxed.fehler->
-bei ethcore_stratum
+zwischengedanke.
+heute nacht den 32bittigen (1.7) fast in einer schleife gehabt, dauerhaftes starten des "richte dir doch ein konto ein"-shit
+was auch immer da los ist oder war- der warp.speed ist weg..... ja, was soll denn das?
+.zurück im haupt
+>wieder der dämliche boxed.fehler-> bei ethcore_stratum
 use of depreciated item-> remove without replacement
 
 finales aussteigen bei wasm 0.1.0
@@ -66,23 +59,47 @@ note: Perhaps two different versions of crate `parity_wasm` are being used?
 99  | |                                 vm::Error::Wasm(format!("Error deserializing contract code ({:?})", err))
 100 | |                         })?
     | |______^
-
 error[E0308]: mismatched types
    --> wasm/src/lib.rs:117:62
-    |
 117 |                   let module_instance = self.program.add_module("contract", contract_module, Some(&execution_params.externals))
-    |                                                                             ^^^^^^^^^^^^^^^ expected struct `parity_wasm::elements::Module`, found struct `parity_wasm::elements::module::Module`
-    |
+    |                                                                             ^^^^^^^^^^^^^^^ expected struct `parity_wasm::elements::Module`, 
+found struct `parity_wasm::elements::module::Module`
     = note: expected type `parity_wasm::elements::Module`
                found type `parity_wasm::elements::module::Module`
 note: Perhaps two different versions of crate `parity_wasm` are being used?
    --> wasm/src/lib.rs:117:62
-    |
 117 |                   let module_instance = self.program.add_module("contract", contract_module, Some(&execution_params.externals))
     |                                                                             ^^^^^^^^^^^^^^^
-
 error: aborting due to 2 previous errors
-
 vielleicht sollte ich das wasm verzeichnis genauer anschauen. morgen. ich wollte das auch nicht mehr tun, aber
-wenn die einzige company mit nem schnellen client jetzt was anderes ausliefert, werde ich 
-mir doch was anderes überlegen müssen.
+wenn die einzige company mit nem schnellen client jetzt änderungen einspielt, die den client in seiner laufzeit negativ beeinflussen, werde
+
+wasm genauer angeschaut,
+besteht aus wam-uils und wasm- //! Experimental build tool for cargo sagt die rust.datei- na Danke auch.
+Aus dem wasm utils geht wenigstens hervor was er denn braucht zum leben[dependencies]
+parity-wasm = "0.14"
+log = "0.3"
+env_logger = "0.4"
+lazy_static = "0.2"
+clap = "2.24"
+glob = "0.2"
+
+saubersaubersauber- die haben wir schon an Bord, die haben Bärte. die fahren "mit"
+also bis auf parity-wasm, was wir nach suchen in zwei weiteren verzeichnissen finden, sieht es gut aus.
+morgen ist heute und das nervt mich, daß ich immer wieder fehler beim compilen bekomme.
+um das einwandfrei immerimmerimmer hinzubekommen, sind wir noch ein paar stunden des logbuchschreibens entfernt,
+nervt
+aber nützt nix- es wird gebraucht und bevor sich andere den kopf darüber zerbrechen, wie man ein aktuelles logbuch schreibt,
+mache ich es, dafür aber in meiner sprache.
+
+Wasm wird in js verwendet sagt mir die suche, also schauen wir uns für finale schnellere erreichen das vz "js"  erneut an,
+vielleicht habe ich dort ja was vergessen.
+
+
+
+
+
+
+
+
+
