@@ -129,7 +129,19 @@ es geht definitiv auch um node-js&npm und all ihre verwandten
 besonders gerne aber die mit *dev am ende 
 die sind so schööön knusssprig....
 
+ja, das war schon mal ziemlich lecker.. inzwischen ist auch schon wieder Sonntag, das
+Wetter geht auch, aber draussen ist draussen und von allein wird nichts fertig....
 
+--zwischengedanke-- 
+das synchronisieren dauert auf den bisher kompilierten Systemen gemessen zwischen 8-15 Mal so lange wie
+bisher, gerade in den letzten 50.000 Blocks steckt etwas, was parity in seiner Geschwindigkeit 
+extrem einschränkt, oder die Software ist inzwischen dicht an "unbrauchbar"
+
+
+In der Hooks innerhalb des Script Verzeichnisses stehen gute Anweisungen zum 
+sauberen Kompilieren. Das probieren wir mal aus....
+ach nee, wieder ein crate, was nicht inkludiert war und sehr dringend benötigt wird----
+lint ..irgendwas-- später mehr dazu.
 
 
 
