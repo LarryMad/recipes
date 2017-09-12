@@ -1,0 +1,59 @@
+module Main where
+
+import Data.List (intersect)
+
+import Control.Concurrent (threadDelay)
+
+type Coordinate = (Int, Int)
+
+data Board = Board { aliveSpaces :: [(Int, Int)], xVal :: Int, yVal :: Int}
+
+main :: IO ()
+
+main = life (Board ([(1,0),(2,1),(0,2),(1,2),(2,2)] ++
+
+        [(x,15)|x <- [41..50],x/=43,x/=49] ++
+
+        [(x,10) | x <- [10..13]] ++
+
+        [(x,y) |x<- [43,49], y <- [14,16]])
+
+        80 23)
+
+
+life :: Board -> IO ()
+
+life b = putStr "\ESC[2J" >> print b >> threadDelay 25 >> life (nextStage b)
+
+
+instance Show Board where
+
+ show b = let lat = [[(x,y) | x <- [0..xVal b -1]] | y <- [0..yVal b -1]]
+
+              showSpace b s | s `elem` aliveSpaces b = 'O'
+
+                            | otherwise = ' ' in
+
+              unlines (map (map (showSpace b)) lat)
+
+
+ns :: Board -> Coordinate -> [Coordinate]
+
+ns b t@(i,j) = let o = [(a,b) | a <- [i-1..i+1], b <- [j-1..j+1], (a,b) /= t] in
+
+  intersect (map (\(x,y) -> (x `mod` xVal b, y `mod` yVal b)) o) (aliveSpaces b)
+
+
+nextStage :: Board -> Board
+
+nextStage b = let lat = [(x,y) |  x <- [0..xVal b -1],  y <- [0..yVal b -1]]
+
+                  wba b s | length (ns b s) == 2 = s `elem` aliveSpaces b
+
+                          | length (ns b s) == 3 = True
+
+                          | otherwise = False in
+
+          Board (filter (wba b) lat) (xVal b) (yVal b)
+
+Siehe auch
