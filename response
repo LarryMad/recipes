@@ -166,13 +166,42 @@ So geile Software- so langsam im Betrieb ...
 debug.
 Dafür kleinere binary ~337.677 kb im ersten Anlauf bei geleerten Verzeichnissen
 
-
-
 ja exakt wie hier
 https://github.com/paritytech/parity/issues/6280
 mehrfach schon beschrieben.
 
 
+Um jetzt auch mal wieder von produktiven Themen zu schreiben,
+hier mein dringender Tip an alle, die einen contract designed haben, 
+um eine lang laufende sync in einer chain zu erreichen, nehmt eine ältere Version
+von parity- verwendet dabei KEINE MULTISIG.WALLET oder es kommt weg, was darin liegt.
+Parity ist bei mir jetzt getestet stabil bei Version 1.4.2 stehen geblieben.
+
+Meine Bewerbung zielte darauf ab, diese Enttäuschung zunächst aufzufangen und 
+dadurch genügend Zeit für die Bereinigung der 2 Hauptfragen zu schaffen.
+Diese lauten "wieso dauert der sync solange?" und "wird es wieder schneller?" werden und
+da zwar ein neuer Entwickler an Bord ist, klärt sich damit nicht auf, wieso es so ist, wie es eben ist.
+
+
+Hintergrund auch ohne Auswertung des Strace.logs für thomekk:
+
+Aufgrund der hohen Verbreitung von geth muß parity in seinen letzten 5 Versionen anders die Inhalte anordnen 
+und nach dem ordnen als datei abspeichern.
+
+Will heißen, in den verteilten Dateien steckt entweder mehr "Arbeit" als früher (=quatsch- hieße ja, die chain enthielte 
+mehr als früher) oder software verwendet andere mechanismen um die anstehenden aufgaben zu verrichten (=wahrscheinlich)
+und dabei werden neuere Methoden verwendet, die mehr kapazitäten verlagen& verbrauchen (=sehr wahrscheinlich).
+
+Was darüberhinaus wie Feuer nervt, ist, daß ich jedes mal jetzt ein neues Konto anlegen muß, um auf die gui ebene zu kommen.
+
+Das verschärft jedoch die Situation daß unfassbar viele calls an die node dauerhaft abgsetzt werden, die zwangsläufig nicht 
+mehr gut und zügig bearbeitet werden können.
+Ein Punkt, wo meines Erachtens nach anders nachgedacht werden muß.
+#assumption
+wenn so viele calls erzeugt werden 
+-> interaktiver werden
+-> abfrage vor der gui ebene, welche konten erforderlich sind oder nur das jeweils älteste automatisch 
+freischalten und weitere nur auf "klick".
 
 
 
