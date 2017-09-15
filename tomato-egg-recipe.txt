@@ -1,0 +1,7 @@
+tomato
+egg
+salt
+oil
+
+step:
+to be continued...
