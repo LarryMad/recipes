@@ -1,0 +1,56 @@
+on new
+32 bit systems
+
+to get a fast, stable running node
+
+first install via command
+
+cargo install rustfmt-nightly
+
+vor allem anderen
+
+Danach geht das test.sh script leichter durch und die node syncronisiert schneller.
+
+dann passiert, wenn alles richtig läuft- folgendes
+
+Updating registry `https://github.com/rust-lang/crates.io-index`
+Downloading rustfmt-nightly v0.2.6
+Installing rustfmt-nightly v0.2.6
+Downloading strings v0.1.0
+Downloading serde_json v1.0.3
+Downloading diff v0.1.10
+Downloading toml v0.4.5
+Downloading serde_derive v1.0.14
+Downloading serde v1.0.14
+Downloading getopts v0.2.15
+Downloading thread_local v0.3.4
+Downloading libc v0.2.30
+Downloading unreachable v1.0.0
+Downloading itoa v0.3.4
+Downloading num-traits v0.1.40
+Downloading dtoa v0.4.2
+Downloading serde_derive_internals v0.16.0
+Compiling getopts v0.2.15
+Compiling unicode-segmentation v1.2.0
+Compiling diff v0.1.10
+Compiling lazy_static v0.2.8
+Compiling libc v0.2.30
+Compiling regex-syntax v0.4.1
+Compiling dtoa v0.4.2
+Compiling log v0.3.8
+Compiling strings v0.1.0
+Compiling itoa v0.3.4
+Compiling term v0.4.6
+Compiling serde v1.0.14
+Compiling toml v0.4.5
+Compiling unicode-xid v0.0.4
+Compiling void v1.0.2
+Compiling synom v0.11.3
+Compiling rustfmt-nightly v0.2.6
+Compiling utf8-ranges v1.0.0
+Compiling num-traits v0.1.40
+Compiling serde_json v1.0.3
+Compiling quote v0.3.15
+Compiling unreachable v1.0.0
+Compiling thread_local v0.3.4
+Compiling syn v0.11.11
