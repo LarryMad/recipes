@@ -2,11 +2,15 @@ on new 32 bit systems
 
 to get a fast, stable running node
 
+read
+https://github.com/rust-lang-nursery/rustfmt
+
 first install via command
 
 cargo install rustfmt-nightly
 
-vor allem anderen
+vor allem anderen, rust ist aber schon drauf, am liebsten die neueste Version 1.18 sollte es immer sein,
+1.19 oder neuer bei den beiden letzten Versionen 1.7.x und auch 1.8 war rust in version 1.20 oder größer mit "dabei".
 
 Danach geht das test.sh script leichter durch und die node syncronisiert schneller.
 
@@ -261,3 +265,17 @@ Compiling rocksdb-sys v0.3.0 (https://github.com/paritytech/rust-rocksdb#4364cae
 Compiling parking_lot_core v0.2.0
 Compiling traitobject v0.1.0
 Compiling utf8-ranges v1.0.0
+
+alter verwalter, kommt doch schon richtig was zusammen, wenn man damit die kryptowährungswelt
+sauber betreten will.
+der part ist der, daß mit parity auch schon professionelle kundschaft beliefert wird.
+wer das jetzt im einzelnen ist, ist auch eher unwichtig, 
+dennoch interessant ist nur
+daß die EIPs die Entwicklung zusammen mit der Schritte ins Metropolis Land vorbereitet wird.
+
+Angenehm in meinen Augen ist das jetzt ein Standard auch bei der ICO Herausgabe zwingend eingehalten werden muß.
+Das sichert zwar keinesweges die Qualität der entwickelten Software, stellt das ganze rechtliche auf eine
+verbindlichere Ebene. Diese Ebene ist eben für jede Art von Contract-Studios interessant.
+
+Dazu gerne später mehr.
+
