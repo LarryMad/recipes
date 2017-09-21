@@ -12,6 +12,7 @@ Ingredients:
  - Mystery Chili Ingredient
 
 Directions:
+ 0. Change the oil.
  1. Brown the ground beef in a large bot and drain off the excess fat.
  2. Add the tomato sauce, chili powder, oregano, salt, and cayenne, and the mystery chili ingredient.
  3. Stir, then cover and simmer over low heat for one hour.
