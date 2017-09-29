@@ -38,3 +38,32 @@ stellt sich als unlösbare Aufgabe bei zahlreichen Versuchen und Umstellungen ra
 Da ich keiner Plattform den absoluten Vorzug gebe, bin ich 
 zum "ersten Probieren" im September 2016 dazu übergegangen, weiter auf Linux.Systemen zu arbeiten-
 gerade in Hinsicht auf Authentizität und Transparenz.
+
+Mit meiner Wahl eines Linux Mint Debian Edition als Basis.System bestanden die
+deutlich höchsten Chancen auf Standards zu treffen, die
+vermutlich auch bei mindestens einem der Kernentwickler der jeweiligen
+Software vorherrschen.
+
+Exakte aktuelle Hinweise bzw. compile Anweisungen zu den jeweiligen Versionen gibt es gelegentlich
+wenn readthedocs aktualisiert wurde bzw. 
+das Geschrei bei reddit zu groß- 
+ich persönlich MEIDE reddit, 
+einem quasi unregeluliertem Riesenforum NUR für Nerds.
+Na Super!
+
+Dort sauber formulierte Informationen ohne jeweilige Anfeindungen zu bekommen,
+ist so wahrscheinlich wie aus dem Hamburger Hafen Wein zu schöpfen ;-)
+
+Also ging die Suche los, einen oder mehrere Entwickler richtig "ausfindig" zu machen.
+Das ging erstaunlich leicht, wenn man parity als weiteren Parity Client bzw. node.software in Betracht zog.
+Diese Software hatte darüberhinaus den Vorteil unglaublich schnell zu synchronisieren#
+und außergewöhnlich platzsparend zu arbeiten.
+In Rust geschrieben, schnell synchronisierend,
+relativ leicht zu erreichende Entwickler- das sag erst einmal gut aus.
+Geht aber weiter. Wenn man sich mit Testing so wie ich auseinandersetzt, nimmt man die
+persönlichen Lieblinge erst mal aussen vor, und probiert, wie die Software auf älteren bzw. reduzierten Systemen läuft.
+Da mir noch etwa 20 notebook und die gleiche Anzahl an raspi2 und 3 aus letzten Projekten zur Verfügung standen,
+habe ich auf diesen die ersten "extendet" tests laufen lassen, also die aktuelle
+Version von parity runterladen und installieren-
+auf dem Raspi 2 ging das eine Zeitlang gut, dann verschwand das github repo und
+ich mußte mir anders weiterhelfen.
