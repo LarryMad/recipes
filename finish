@@ -70,31 +70,66 @@ ich mußte mir anders weiterhelfen.
 
 Nur daß wir uns richtig verstehen-
 folgende Nodes waren mal meine:
-https://www.ethernodes.org/node/405c0bdc278a9d241adfa4780a5954f4a1253c92abf2b042322d296d364e17af87247be9c4a77fa667122439b7d3159576c4e35dc21272bd1a3e03cfcc464af0
+
+ethereumJ
+https://www.ethernodes.org/node/72b09315f9705bcb610be9ebf9fead2558a7b52f9d8a4572d0992f7b3922bfb456f931c1536b9c4c7b283d7c13a44f8dac879fa876abe48ee380b79f4b71cf61
+
+diverse andere
+https://www.ethernodes.org/node/b8893825a0c5d28ea3390f87cefbdbfb70fafa614782a2101e0d48cac267a8a9e87fdf6481d105c7d91ff481b4827c770fdd1145e4859555aa8777335d330624
+https://www.ethernodes.org/node/f70e1d0b9028b1d4dc8d80eed1c7031317bb11bdbfeeddc964b1bc48dece454ca3ab17c78bab17e075d70d8a38654ce82dba16ca9123267ef76b8a09e61bdf2d
+https://www.ethernodes.org/node/fb20328a3191796e18d1dee2cd589a27f177ede548982845f31ffa4a60749216b6ea958ddf0106b10a0afd45e1adf3cfd8ad072f250f11e8c4bc7ff0ec8c5e43
+https://www.ethernodes.org/node/a868b6a6c9e51ee8d1499ea63df3776d95d8237a8dae06af3707e71f5a6ec6d854d345f5b17142f8f8ada1f987111487df074454bb3bc64bac15d216d132507e
+https://www.ethernodes.org/node/b1b2de04cdbb34fd9366d1fd1ba87a4673853745bb88bb0e545ac8e8f8ac8ca0352709c5cde24cca1a9ea578d3b103b7054198e22999ce775a138d47ab04cb73
 https://www.ethernodes.org/node/6b69fccda9fd26d78521b7444712fe60a6d2d1958e223415267746349ff14c78de2152b99f4a6555b9715d9a5c7b439547b0ff68dec1f5cad3cc84e9f3879f24
 https://www.ethernodes.org/node/9b016b11b40afa0c59aab70bef1a6869f772baa243c632730734a793050e5d35c5538ab9f501cfe8d712ffee873d7e1e30e6e603d62bb1ad521b3d359c963240
 https://www.ethernodes.org/node/1aceddd3166b3296de078b756b4d899adc3a5e6f59bad0068d18389e0d345a495ec30fbfe33316ced8ff7429a48ce8ba84eae4b6ecace319fb099ae06289e1fa
+https://www.ethernodes.org/node/8d66a4feda83edf5048b12d6734534488e20848b5e422b785b8dce45b304049db8c34b7c1fca6fad5af222b3652f2c139248ac2b965f6a51cca9971294d46afb
+https://www.ethernodes.org/node/3cf5ef77f164b67e4542bf258c216c9c070bfbfc95995bb99d8f36b1b6dc78f0b407894d7b1adfad7221037a7b980fe0bb9a7ebc4af3c7c99e2f3d5152acaded
+https://www.ethernodes.org/node/d26eea8f3d019f9c8c1b8c2c7033227354ceec0bbd79704594620141d1decf7a8274291d627c51de8e0838849590b8ef88d3eccbdaae2cdb644e6ca135cd0355
+https://www.ethernodes.org/node/0e9cb95568ab431fc36556aaa916605c7c70311460028b5275401a63710017ae3bfe49f766121dde3c540009f31d08e294692efd584cd4a27b98e74ecbd00f65
+https://www.ethernodes.org/node/a568367f40c1d8d45d161b0012803662fe79aaef704d9a492250582033ab3b0c32291f436e4ed02dccdec54b426109df81363e233ed92dec8aa0c105fecc0bea
+https://www.ethernodes.org/node/8848abbf55bab059d182043f6bcd5b1c0cc6ce51f5b07eec58fd44a66e36198cebdf31b63be887748ad7508d8e76846a2fc0180fe77a0164684f25913801242e
+https://www.ethernodes.org/node/7d067250672d5f25993c2fa592244e5563631aa46a00af27ce44ff466ec3a6b9b18c0117cdae0cd6e695814fd83ff20bd818a24f96e31289bb31fe1e7980041f
+https://www.ethernodes.org/node/d315bff448f8cda873e604209a4bc2c4e6c4e1cf8397850e7701d1119b160a440734b1677213ca21350b86c5e12c75ae5a225e6c4a2ceccdf69f88a16f878793
+https://www.ethernodes.org/node/852f5617ab50dae99e5e9cf9e854caf103ade788b007ed037386c38ab87ec4eb77ea1e5b7847d536b824effa4dc8ff6b9bd3de928c284000bb7a02d3ed7abaff
 
+Wer mir also sagt, daß ich noch ein wenig üben darf, 
+den lächel ich ganz freundlich 
+und denke mir meinen Teil.
 
 Um es zu erklären-
-innerhalb dieser Liste stehen Clients, deren Architekturen leider nicht als binary supportet werden-
+innerhalb dieser Liste stehen auch Clients, 
+deren Architekturen leider nicht als binary supportet werden-
 wohl aber auch die "Standard" Version 1.70-64bit
 dementsprechend sind dabei:
-32bit Parity
+32bit Parity 
+https://www.ethernodes.org/node/1aceddd3166b3296de078b756b4d899adc3a5e6f59bad0068d18389e0d345a495ec30fbfe33316ced8ff7429a48ce8ba84eae4b6ecace319fb099ae06289e1fa
+sowie
 raspberry.pi(2).plus
+https://www.ethernodes.org/node/405c0bdc278a9d241adfa4780a5954f4a1253c92abf2b042322d296d364e17af87247be9c4a77fa667122439b7d3159576c4e35dc21272bd1a3e03cfcc464af0
 
-Was mir persönlich bisher komplett schleierhaft ist, warum keine offiziellen 32 bit Clients bereitgestellt werden,
+Was mir persönlich bisher komplett schleierhaft ist, 
+warum keine offiziellen 32 bit Clients bereitgestellt werden,
 oder eine normale Erzeugung eines raspi2.compatiblen Binary-
-es schein aus meiner Sicht, als wenn man sich ausschließlich an aktueller Architektur orieniert,
-damit hängt man allerdings einige Regionen der Welt von der Teilnahme fast ab.
-Mein Vorschlag ein 32bit build Team zu bilden habe ich bisher für mich behalten-
-genauso wie ich den Spaßvögeln mit komplettem raspi image tendenziell Respekt für Ihre Arbeit zolle,
+es scheint aus meiner Sicht begrenzt, daß wenn man sich ausschließlich an aktueller Architektur orieniert,
+damit hängt man allerdings einige Regionen der Welt von der Teilnahme tendenziell ab.
+Ausgehend davon, daß ethereum keine eliten.shice in sich trägt und für jeden funktionieren soll, 
+wäre es für Afika ein Segen, zumal dort inzwischen Internetversorgung verfügbar ist.
+
+Mein Vorschlag ein 32bit build Team bei parity zu bilden, habe ich bisher für mich behalten- vielleicht doof, vielleicht auch gut.
+
+Genauso wie ich der Hood denen ich mit deren komplettem raspi-image tendenziell Respekt für Ihre Arbeit zolle,
 deren Weg zum Image nicht nachvollziehen und diesem für Transaktionen nicht TRAUEN KANN-
-vielleicht ist meine Idee über Integrität aber auch zu abgefahren oder en vogue-
-mir egal, dachte ich mir und war im April 2017 schon soweit, daß mich parity 
-so stark phaszinierte, daß meine Bemühungen in diesem Bereich auf über 40 Stunden die Woche gingen.
-War auch sauber möglich, in den letzten Projekten war halt noch ausreichend zu tun, hatte aber keine
-Deadlines.
+und daher nicht nutzen möchte. 
+Mal ehrlich, wer lädt sich ein komplettes Image für einen Raspi runter,
+wenn man nicht validieren kann,
+wie es erzeugt wurde? 
+Meines Erachtens ein sehr wichtiger Punkt zumal die Raspberry pi Architektur eine
+der am stärksten im IOT-Umfeld verbreitete Rechner ist.
+
+Vielleicht ist meine Idee über Integrität aber auch zu abgefahren oder zu en vogue-
+so dachte ich mir und war im April 2017 schon soweit, daß mich parity so stark phaszinierte, 
+daß meine Aufmerksamkeit in diesem Bereich auf über 40 Stunden in der Woche gingen.
 
 Der Einstieg in Parity geht für mich über Rust am einfachsten und
 ich bin nach wie vor ein fan dieser Software, obwohl einige Features inzwischen
