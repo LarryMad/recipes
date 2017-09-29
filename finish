@@ -1,2 +1,40 @@
-mir reichts-
+mir reichts... noch nicht ganz
 
+damit klar wird wovon ich schreibe, eines vorab,
+Lesen bildet.
+Einbildung ist auch Bildung.
+
+Nun zum finish-
+
+Ich kann über reichhaltige Erfahrungen in den Bereichen
+
+testing in general
+plattform testing
+liquid documentation
+administrational support
+international teaming 
+interim project management
+risc management
+
+schreiben.
+Mein Interesse für Ethereum begann in 2015 durch lesen eines Artikels, was ethereum denn überhaupt ist
+und wie es funktioniert und weshalb es anders ist, als das was wir kennen.
+Es ergab sich, daß im Mai mir 26 potente Grakas ins Haus kamen, die nun nach allen Regeln der Kunst 
+umfunktioniert wurden- als miner für ethereum. Um das System zu verstehen, war ich mir nicht zu fein, an dieser Stelle
+einige Erahrungen einzusammeln und in den jeweiligen Pools meine Werte einzufahren. Dabei habe ich vorrangig 
+unter Windows zunächst gearbeitet, um eine breite Basis an Ansprechpartnern bei der Suche vermuten zu dürfen.
+Um das erminte Ether verwalten bzw. transferieren kam ich zunächst aufgrund der Wahl der Plattform auf etherwallet.
+Leider ist die Software tendenziell platzverschwenderisch drauf, wenn man die ganze Chain auf den Rechner lädt.
+Ein jüngst gefundenes Dokument belegt dies
+http://bc.daniel.net.nz/ bzw. deckt sich mit meinen Erfahrungen.
+Soweit zu geth, welches einfach ein Wallet-Programm ist, mit dem auch Smart.Contract "gehen".
+
+Nach einer gewissen Erfahrungszeit kam ich dazu, daß ich eine
+überzeugende Übersicht aller "möglichen" Clients bzw. Nodes sucht und fand.
+Neben Ethereum.Wallet und Mist auf Basis von go bzw. c++ gibt es mehrere beachtenswerte Ansätze,
+die auch fortlaufend weiterentwickelt werden. 
+Dazu gehören mindestens ethereumJ und pyethapp- diese auf einem Windows System zum laufen zu bringen,
+stellt sich als unlösbare Aufgabe bei zahlreichen Versuchen und Umstellungen raus.
+Da ich keiner Plattform den absoluten Vorzug gebe, bin ich 
+zum "ersten Probieren" im September 2016 dazu übergegangen, weiter auf Linux.Systemen zu arbeiten-
+gerade in Hinsicht auf Authentizität und Transparenz.
