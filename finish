@@ -67,3 +67,37 @@ habe ich auf diesen die ersten "extendet" tests laufen lassen, also die aktuelle
 Version von parity runterladen und installieren-
 auf dem Raspi 2 ging das eine Zeitlang gut, dann verschwand das github repo und
 ich mußte mir anders weiterhelfen.
+
+Nur daß wir uns richtig verstehen-
+folgende Nodes waren mal meine:
+https://www.ethernodes.org/node/405c0bdc278a9d241adfa4780a5954f4a1253c92abf2b042322d296d364e17af87247be9c4a77fa667122439b7d3159576c4e35dc21272bd1a3e03cfcc464af0
+https://www.ethernodes.org/node/6b69fccda9fd26d78521b7444712fe60a6d2d1958e223415267746349ff14c78de2152b99f4a6555b9715d9a5c7b439547b0ff68dec1f5cad3cc84e9f3879f24
+https://www.ethernodes.org/node/9b016b11b40afa0c59aab70bef1a6869f772baa243c632730734a793050e5d35c5538ab9f501cfe8d712ffee873d7e1e30e6e603d62bb1ad521b3d359c963240
+https://www.ethernodes.org/node/1aceddd3166b3296de078b756b4d899adc3a5e6f59bad0068d18389e0d345a495ec30fbfe33316ced8ff7429a48ce8ba84eae4b6ecace319fb099ae06289e1fa
+
+
+Um es zu erklären-
+innerhalb dieser Liste stehen Clients, deren Architekturen leider nicht als binary supportet werden-
+wohl aber auch die "Standard" Version 1.70-64bit
+dementsprechend sind dabei:
+32bit Parity
+raspberry.pi(2).plus
+
+Was mir persönlich bisher komplett schleierhaft ist, warum keine offiziellen 32 bit Clients bereitgestellt werden,
+oder eine normale Erzeugung eines raspi2.compatiblen Binary-
+es schein aus meiner Sicht, als wenn man sich ausschließlich an aktueller Architektur orieniert,
+damit hängt man allerdings einige Regionen der Welt von der Teilnahme fast ab.
+Mein Vorschlag ein 32bit build Team zu bilden habe ich bisher für mich behalten-
+genauso wie ich den Spaßvögeln mit komplettem raspi image tendenziell Respekt für Ihre Arbeit zolle,
+deren Weg zum Image nicht nachvollziehen und diesem für Transaktionen nicht TRAUEN KANN-
+vielleicht ist meine Idee über Integrität aber auch zu abgefahren oder en vogue-
+mir egal, dachte ich mir und war im April 2017 schon soweit, daß mich parity 
+so stark phaszinierte, daß meine Bemühungen in diesem Bereich auf über 40 Stunden die Woche gingen.
+War auch sauber möglich, in den letzten Projekten war halt noch ausreichend zu tun, hatte aber keine
+Deadlines.
+
+Der Einstieg in Parity geht für mich über Rust am einfachsten und
+ich bin nach wie vor ein fan dieser Software, obwohl einige Features inzwischen
+verändert wurden. Vielleicht mehr morgen-
+
+
