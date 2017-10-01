@@ -42,20 +42,27 @@ Ein jüngst gefundenes Dokument belegt dies
 http://bc.daniel.net.nz 
 bzw. deckt sich mit meinen Erfahrungen.
 
-Soweit zu geth, welches einfach ein Wallet-Programm ist, mit dem auch Smart.Contract "gehen". 
+Soweit zu geth, welches in Kombination mit etherwallet ein einfaches Wallet-Programm ist, mit dem auch Smart.Contract "gehen". 
+Ebenso wie Mist, eine recht platzintensive Geschichte.
 
 Nach einer gewissen Erfahrungszeit kam ich dazu, daß ich eine
-überzeugende Übersicht aller "möglichen" Clients bzw. Nodes sucht und fand.
+überzeugende Übersicht aller "möglichen" Clients bzw. Nodes suchte und fand.
 
-Neben Ethereum.Wallet und Mist auf Basis von go bzw. c++ gibt es mehrere beachtenswerte Ansätze,
+Neben Ethereum.Wallet und Mist auf Basis von go  gibt es mehrere beachtenswerte Ansätze,
 die auch fortlaufend weiterentwickelt wurden und werden. 
 
-Dazu gehören mindestens ethereumJ und pyethapp- diese auf einem Windows System zum laufen zu bringen,
-stellt sich als unlösbare Aufgabe bei zahlreichen Versuchen und Umstellungen raus.
+Dazu gehören mindestens ethereumJ und pyethapp- 
+diese auf einem Windows System zum laufen zu bringen,
+stellt sich als komplexe Aufgabe bei zahlreichen Versuchen und Übungen raus.
+Zumindest zweimal hat es EthereumJ geklappt und wenn ich mich recht erinnere sogar einmal pyethapp-
+da war was mit virtual environment, was einmal gelungen war, aber danach nie wieder gelang-
+von daher habe ich das Testing dieser Clients im Januar `17 sein gelassen.
 
-Da ich keiner Plattform den absoluten Vorzug gebe, bin ich 
-zum "ersten Probieren" im September 2016 dazu übergegangen, weiter auf Linux.Systemen zu arbeiten-
+Da ich keiner Plattform den absoluten Vorzug gebe&gab, 
+bin ich zum "ersten Probieren" im September 2016 dazu übergegangen, 
+weiter auf Linux.Systemen zu arbeiten-
 gerade in Hinsicht auf Authentizität und Transparenz.
+
 Das zieht allerdings nach sich, daß die Themen "Zeitsynchronisation" und Sicherheit wirklich sitzen müssen,
 wenn man damit größere Werte übertragen möchte.
 
@@ -67,39 +74,51 @@ Software vorherrschen.
 Exakte aktuelle Hinweise bzw. compile Anweisungen zu den jeweiligen Versionen gibt es, 
 gelegentlich
 wenn readthedocs aktualisiert wurde bzw. 
-das Geschrei bei reddit zu groß- ich persönlich MEIDE reddit, einem quasi unregeluliertem Riesenforum NUR für Nerds. Na Super dachte ich mehrfach.
+das Geschrei bei reddit& woanders zu groß- 
+ich persönlich MEIDE reddit, 
+einem quasi unregeluliertem Riesenforum NUR für Nerds. 
+"Na Super" dachte ich mehrfach beim Lesen von Posts dort-
+fast immer abschätziges Verhalten gegenüber newbies.
 
 Dort sauber formulierte Informationen ohne jeweilige Anfeindungen zu bekommen,
 ist so wahrscheinlich wie direkt aus dem Hamburger Hafen Wein zu schöpfen ;-)
 
-Also ging die Suche los, einen oder mehrere Entwickler richtig "ausfindig" zu machen.
+Also ging die Suche los, einen oder mehrere Entwickler richtig "ausfindig" zu machen
+bzw. greifbar zu haben, den man auch anschreiben kann,
+um bei aussergewöhnlichem Verhalten einen erfahreneren Ansprechpartner zu haben.
 
-Das ging erstaunlich leicht, wenn man parity als weiteren Parity Client bzw. node.software in Betracht zog.
+Das ging erstaunlich leicht, wenn man parity als weiteren ethereum Client bzw. 
+node.software in Betracht zog.
+
 Diese Software hatte darüberhinaus den Vorteil unglaublich schnell zu synchronisieren
 und außergewöhnlich platzsparend zu arbeiten.
 
 In Rust geschrieben, schnell synchronisierend,
 relativ leicht zu erreichende Entwickler- das sah erst einmal gut aus.
 
-Wenn man sich mit Testing so wie ich auseinandersetzt, nimmt man die
-persönlichen Lieblinge erst mal aussen vor, und probiert, wie die Software auf älteren bzw. reduzierten Systemen läuft.
+Wenn man sich mit Testing so wie ich auseinandersetzt, nimmt man das
+persönlichen OS erst mal aussen vor, 
+und probiert, wie die Software auf älteren bzw. reduzierten Systemen läuft.
 
-Da mir noch etwa 20 notebook und die gleiche Anzahl an raspi2 und 3 aus letzten Projekten zur Verfügung standen,
+Da mir noch etwa 20 ältere notebooks und die gleiche Anzahl an raspi2 und 3 aus letzten Projekten zur Verfügung standen,
 habe ich auf diesen die ersten "extendet" tests laufen lassen, also die aktuelle
-Version von parity runterladen und installieren- bzw. hart abkotzen wenn mal wieder was nicht läuft-
+Version von parity runterladen 
+und installieren- bzw. hart abkotzen wenn mal wieder was nicht läuft-
 wie immer wenn man mit neuer quasi undoumentierter Software zu tun hat.
 
 Jemanden anzublöken, der gut nachgedacht hat als er das Programm schrieb,
 oder den Admin, der es nicht zum Laufen bringt, 
-sind Bereiche in denen sich unsere Altvorderen gerne mit aufspielen-
-jedes Mal wenn das geschehen ist, habe ich meinen Preis VERDOPPELT
-und immer Recht gehabt, was die Aufwandsschätzungen anging.
-Bei über 70 Projekten im Bereich Implementierung, Ausrollungsplanung sowie Operating 
-und Backup.Strategien habe ich wenig nicht gesehen.
+sind komplett kontraproduktiv.
 
-Natürlich liegen mir kleinere Rechner inzwischen am Herzen. Gerade auf dem Raspi 2 ging Parity installieren (deb ziehen und gut) 
-eine Zeitlang gut, dann verschwand das bei parity selbst und 
-ich mußte mir anders weiterhelfen.
+Bei über 70 Projekten im Bereich Implementierung, Ausrollungsplanung sowie Operating 
+und Backup.Strategien habe ich einiges gesehen.
+
+Natürlich liegen mir stromsparende Rechner inzwischen am Herzen. 
+Gerade auf dem Raspi 2 ging Parity installieren (deb ziehen, install und gut) 
+eine Zeitlang gut, dann verschwand das bei parity selbst und ich mußte mir selbst weiterhelfen.
+Das führte unter anderem zu einem 13 Tage Installationsmarathon, wo ich das erste mal das incremental building
+ausprobieren konnte, was enorme Kenntnisse über die Abhängigkeiten der crates untereinander
+und die Dauern für Teil.Compiles erbrachte.
 
 Nur daß wir uns richtig verstehen-
 folgende Nodes waren mal meine:
@@ -151,33 +170,20 @@ Wie man der Liste entnehmen kann, ist parity mein absoluter Favorit-
 Was mir persönlich bisher komplett schleierhaft ist, 
 warum keine offiziellen 32 bit Clients bereitgestellt werden,
 oder eine reguläre Erzeugung eines raspi2.compatiblen Binary-
-es scheint aus meiner Sicht begrenzt, daß wenn man sich ausschließlich an aktueller Architektur orieniert,
-damit hängt man allerdings einige Regionen der Welt von der Teilnahme tendenziell ab.
-
-Ausgehend davon, daß ethereum keine eliten.shice in sich trägt und für jeden funktionieren soll, 
-wäre es für Afika ein Segen, zumal dort inzwischen Internetversorgung verfügbar ist.
-Dort sind enorme Mengen an 32 bittiger Hardware noch in Gebrauch, die Menschen dort 
-brauchen für payments auch in 10 Jahren gute, transparente Lösungen.
-Eventuell auch für Wahlen ist das System ethereum durchaus nutzbar.
 
 Mein Vorschlag ein 32bit build Team bei parity zu bilden, habe ich bisher für mich behalten- 
 vielleicht doof, vielleicht auch gut.
 
-Genauso wie ich der Hood denen ich mit deren komplettem raspi-image echten Respekt für Ihre Arbeit zolle,
-deren Weg zum Image ich persönlich (ja begrenzt) nicht nachvollziehen und diesem für Transaktionen nicht TRAUEN KANN-
-und daher nicht nutzen möchte. 
-Mal ehrlich, wer lädt sich ein komplettes Image für einen Raspi runter,
-wenn man nicht validieren kann,
-wie es erzeugt wurde? 
+Ebenso wäre wundervoll ein kleines Team zu builden, was wächst,
+in dem sich ausschließlich um SoCs gekümmert wird.
+Durch das Verzahnen der IoT-Welt mit der blockchain-Welt enstehen
+höhere Transparenzen für alle.
 
-Meines Erachtens ein sehr wichtiger Punkt zumal die Raspberry pi Architektur eine
-der am stärksten im IOT-Umfeld verbreitete Rechner ist.
-
-Vielleicht ist meine Idee über Integrität aber auch zu abgefahren oder zu en vogue-
-so dachte ich mir und war im April 2017 schon soweit, daß mich parity so stark phaszinierte, 
-daß meine Aufmerksamkeit in diesem Bereich auf über 40 Stunden in der Woche gingen.
+Meines Erachtens ein sehr wichtiger Punkt zumal die arm- Architektur eine
+der am stärksten im IOT-Umfeld verbreitete ist.
 
 Der Einstieg in Parity geht für mich über Rust am einfachsten und
 ich bin nach wie vor ein fan dieser Software, obwohl einige Features inzwischen
 verändert wurden. Vielleicht mehr morgen-
 
+nicht mehr-- aber Änderungen zur Lesbarkeit bzw. zum besseren Verständnis eingefügt.
