@@ -1,0 +1,313 @@
+Ja, 
+eine der Entwicklungsumgebungen, die man nicht mehr häufig sieht, wohl aber eine
+laufende 1.7er node-
+wieder der leicht wahnsinnige Versuch, die aktuelle Version direkt zu builden.
+Vorab-
+das unten stehende sorgt auf jeden Fall für besser durchlaufende cargo build-Vorgänge-
+ich hatte beim ersten Anlauf außergewöhnlich viel Zeit,
+mir den 32bittigen Client zu bauen, bzw. hatte wirklich zu kämpfen.
+Das jetzt 6 Wochen später noch mal zu erklären fällt mir schwer, daher dieser Ansatz einen laufenden 1.7er client
+im Hintergrund neu zu builden und dann gleich "durchlaufen" zu lassen,
+um schnell und robust deployen/skalieren zu können.
+
+Es hilft enorm sich anfangs erst mal der kcov. installation zuzuwenden.
+Das geht so:
+
+asus-nb@asusnb-A8F ~ $ sudo apt-get install libcurl4-openssl-dev libelf-dev libdw-dev cmake gcc binutils-dev libiberty-dev
+Paketlisten werden gelesen... Fertig
+Abhängigkeitsbaum wird aufgebaut.
+Statusinformationen werden eingelesen.... Fertig
+cmake is already the newest version.
+cmake wurde als manuell installiert festgelegt.
+gcc is already the newest version.
+Die folgenden Pakete wurden automatisch installiert und werden nicht mehr benötigt:
+  freeglut3 libargtable2-0 libcryptopp-dev libjson-rpc-cpp-dev miniupnpc
+Verwenden Sie »apt-get autoremove«, um sie zu entfernen.
+Die folgenden zusätzlichen Pakete werden installiert:
+  comerr-dev krb5-multidev libdw1 libgcrypt11-dev libgnutls-dev libgnutlsxx27
+  libgpg-error-dev libgssrpc4 libidn11-dev libkadm5clnt-mit9 libkadm5srv-mit9
+  libkdb5-7 libkrb5-dev libldap2-dev libp11-kit-dev librtmp-dev libtasn1-6-dev
+Vorgeschlagene Pakete:
+  krb5-doc libcurl4-doc libcurl3-dbg libgcrypt11-doc gnutls26-doc gnutls-bin
+  krb5-user
+Die folgenden NEUEN Pakete werden installiert:
+  binutils-dev comerr-dev krb5-multidev libcurl4-openssl-dev libdw-dev libdw1
+  libelf-dev libgcrypt11-dev libgnutls-dev libgnutlsxx27 libgpg-error-dev
+  libgssrpc4 libiberty-dev libidn11-dev libkadm5clnt-mit9 libkadm5srv-mit9
+  libkdb5-7 libkrb5-dev libldap2-dev libp11-kit-dev librtmp-dev libtasn1-6-dev
+0 aktualisiert, 22 neu installiert, 0 zu entfernen und 8 nicht aktualisiert.
+Es müssen 4.887 kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 23,5 MB Plattenplatz zusätzlich benutzt.
+Möchten Sie fortfahren? [J/n] j
+Holen: 1 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libdw1 i386 0.158-0ubuntu5.2 [190 kB]
+Holen: 2 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libgssrpc4 i386 1.12+dfsg-2ubuntu5.3 [52,4 kB]
+Holen: 3 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libkadm5clnt-mit9 i386 1.12+dfsg-2ubuntu5.3 [35,4 kB]
+Holen: 4 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libkdb5-7 i386 1.12+dfsg-2ubuntu5.3 [36,0 kB]
+Holen: 5 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libkadm5srv-mit9 i386 1.12+dfsg-2ubuntu5.3 [49,8 kB]
+Holen: 6 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libgnutlsxx27 i386 2.12.23-12ubuntu2.8 [17,9 kB]
+Holen: 7 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main comerr-dev i386 2.1-1.42.9-3ubuntu1.3 [37,9 kB]
+Holen: 8 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main krb5-multidev i386 1.12+dfsg-2ubuntu5.3 [111 kB]
+Holen: 9 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libidn11-dev i386 1.28-1ubuntu2.1 [520 kB]
+Holen: 10 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libkrb5-dev i386 1.12+dfsg-2ubuntu5.3 [14,4 kB]
+Holen: 11 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libldap2-dev i386 2.4.31-1+nmu2ubuntu8.4 [259 kB]
+Holen: 12 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty/main libgpg-error-dev i386 1.12-0.2ubuntu1 [19,8 kB]
+Holen: 13 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libgcrypt11-dev i386 1.5.3-2ubuntu4.5 [277 kB]
+Holen: 14 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libtasn1-6-dev i386 3.4-3ubuntu0.5 [383 kB]
+Holen: 15 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty/main libp11-kit-dev i386 0.20.2-2ubuntu2 [56,5 kB]
+Holen: 16 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libgnutls-dev i386 2.12.23-12ubuntu2.8 [370 kB]
+Holen: 17 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main librtmp-dev i386 2.4+20121230.gitdf6c518-1ubuntu0.1 [54,4 kB]
+Holen: 18 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libcurl4-openssl-dev i386 7.35.0-1ubuntu2.10 [230 kB]
+Holen: 19 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libelf-dev i386 0.158-0ubuntu5.2 [50,0 kB]
+Holen: 20 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libdw-dev i386 0.158-0ubuntu5.2 [146 kB]
+Holen: 21 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main libiberty-dev i386 20131116-1ubuntu0.2 [136 kB]
+Holen: 22 ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/ trusty-updates/main binutils-dev i386 2.24-5ubuntu14.2 [1.841 kB]
+Es wurden 4.887 kB in 6 s geholt (751 kB/s).
+Vormals nicht ausgewähltes Paket libdw1:i386 wird gewählt.
+(Lese Datenbank ... 191914 Dateien und Verzeichnisse sind derzeit installiert.)
+Vorbereitung zum Entpacken von .../libdw1_0.158-0ubuntu5.2_i386.deb ...
+Entpacken von libdw1:i386 (0.158-0ubuntu5.2) ...
+Vormals nicht ausgewähltes Paket libgssrpc4:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libgssrpc4_1.12+dfsg-2ubuntu5.3_i386.deb ...
+Entpacken von libgssrpc4:i386 (1.12+dfsg-2ubuntu5.3) ...
+Vormals nicht ausgewähltes Paket libkadm5clnt-mit9:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libkadm5clnt-mit9_1.12+dfsg-2ubuntu5.3_i386.deb ...
+Entpacken von libkadm5clnt-mit9:i386 (1.12+dfsg-2ubuntu5.3) ...
+Vormals nicht ausgewähltes Paket libkdb5-7:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libkdb5-7_1.12+dfsg-2ubuntu5.3_i386.deb ...
+Entpacken von libkdb5-7:i386 (1.12+dfsg-2ubuntu5.3) ...
+Vormals nicht ausgewähltes Paket libkadm5srv-mit9:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libkadm5srv-mit9_1.12+dfsg-2ubuntu5.3_i386.deb ...
+Entpacken von libkadm5srv-mit9:i386 (1.12+dfsg-2ubuntu5.3) ...
+Vormals nicht ausgewähltes Paket libgnutlsxx27:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libgnutlsxx27_2.12.23-12ubuntu2.8_i386.deb ...
+Entpacken von libgnutlsxx27:i386 (2.12.23-12ubuntu2.8) ...
+Vormals nicht ausgewähltes Paket comerr-dev wird gewählt.
+Vorbereitung zum Entpacken von .../comerr-dev_2.1-1.42.9-3ubuntu1.3_i386.deb ...
+Entpacken von comerr-dev (2.1-1.42.9-3ubuntu1.3) ...
+Vormals nicht ausgewähltes Paket krb5-multidev wird gewählt.
+Vorbereitung zum Entpacken von .../krb5-multidev_1.12+dfsg-2ubuntu5.3_i386.deb ...
+Entpacken von krb5-multidev (1.12+dfsg-2ubuntu5.3) ...
+Vormals nicht ausgewähltes Paket libidn11-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libidn11-dev_1.28-1ubuntu2.1_i386.deb ...
+Entpacken von libidn11-dev (1.28-1ubuntu2.1) ...
+Vormals nicht ausgewähltes Paket libkrb5-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libkrb5-dev_1.12+dfsg-2ubuntu5.3_i386.deb ...
+Entpacken von libkrb5-dev (1.12+dfsg-2ubuntu5.3) ...
+Vormals nicht ausgewähltes Paket libldap2-dev:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libldap2-dev_2.4.31-1+nmu2ubuntu8.4_i386.deb ...
+Entpacken von libldap2-dev:i386 (2.4.31-1+nmu2ubuntu8.4) ...
+Vormals nicht ausgewähltes Paket libgpg-error-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libgpg-error-dev_1.12-0.2ubuntu1_i386.deb ...
+Entpacken von libgpg-error-dev (1.12-0.2ubuntu1) ...
+Vormals nicht ausgewähltes Paket libgcrypt11-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libgcrypt11-dev_1.5.3-2ubuntu4.5_i386.deb ...
+Entpacken von libgcrypt11-dev (1.5.3-2ubuntu4.5) ...
+Vormals nicht ausgewähltes Paket libtasn1-6-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libtasn1-6-dev_3.4-3ubuntu0.5_i386.deb ...
+Entpacken von libtasn1-6-dev (3.4-3ubuntu0.5) ...
+Vormals nicht ausgewähltes Paket libp11-kit-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libp11-kit-dev_0.20.2-2ubuntu2_i386.deb ...
+Entpacken von libp11-kit-dev (0.20.2-2ubuntu2) ...
+Vormals nicht ausgewähltes Paket libgnutls-dev wird gewählt.
+Vorbereitung zum Entpacken von .../libgnutls-dev_2.12.23-12ubuntu2.8_i386.deb ...
+Entpacken von libgnutls-dev (2.12.23-12ubuntu2.8) ...
+Vormals nicht ausgewähltes Paket librtmp-dev wird gewählt.
+Vorbereitung zum Entpacken von .../librtmp-dev_2.4+20121230.gitdf6c518-1ubuntu0.1_i386.deb ...
+Entpacken von librtmp-dev (2.4+20121230.gitdf6c518-1ubuntu0.1) ...
+Vormals nicht ausgewähltes Paket libcurl4-openssl-dev:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libcurl4-openssl-dev_7.35.0-1ubuntu2.10_i386.deb ...
+Entpacken von libcurl4-openssl-dev:i386 (7.35.0-1ubuntu2.10) ...
+Vormals nicht ausgewähltes Paket libelf-dev:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libelf-dev_0.158-0ubuntu5.2_i386.deb ...
+Entpacken von libelf-dev:i386 (0.158-0ubuntu5.2) ...
+Vormals nicht ausgewähltes Paket libdw-dev:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libdw-dev_0.158-0ubuntu5.2_i386.deb ...
+Entpacken von libdw-dev:i386 (0.158-0ubuntu5.2) ...
+Vormals nicht ausgewähltes Paket libiberty-dev:i386 wird gewählt.
+Vorbereitung zum Entpacken von .../libiberty-dev_20131116-1ubuntu0.2_i386.deb ...
+Entpacken von libiberty-dev:i386 (20131116-1ubuntu0.2) ...
+Vormals nicht ausgewähltes Paket binutils-dev wird gewählt.
+Vorbereitung zum Entpacken von .../binutils-dev_2.24-5ubuntu14.2_i386.deb ...
+Entpacken von binutils-dev (2.24-5ubuntu14.2) ...
+Trigger für doc-base (0.10.5) werden verarbeitet ...
+Processing 3 added doc-base files...
+Registering documents with scrollkeeper...
+Trigger für install-info (5.2.0.dfsg.1-2) werden verarbeitet ...
+Trigger für man-db (2.6.7.1-1ubuntu1) werden verarbeitet ...
+libdw1:i386 (0.158-0ubuntu5.2) wird eingerichtet ...
+libgssrpc4:i386 (1.12+dfsg-2ubuntu5.3) wird eingerichtet ...
+libkadm5clnt-mit9:i386 (1.12+dfsg-2ubuntu5.3) wird eingerichtet ...
+libkdb5-7:i386 (1.12+dfsg-2ubuntu5.3) wird eingerichtet ...
+libkadm5srv-mit9:i386 (1.12+dfsg-2ubuntu5.3) wird eingerichtet ...
+libgnutlsxx27:i386 (2.12.23-12ubuntu2.8) wird eingerichtet ...
+comerr-dev (2.1-1.42.9-3ubuntu1.3) wird eingerichtet ...
+krb5-multidev (1.12+dfsg-2ubuntu5.3) wird eingerichtet ...
+libidn11-dev (1.28-1ubuntu2.1) wird eingerichtet ...
+libkrb5-dev (1.12+dfsg-2ubuntu5.3) wird eingerichtet ...
+libldap2-dev:i386 (2.4.31-1+nmu2ubuntu8.4) wird eingerichtet ...
+libgpg-error-dev (1.12-0.2ubuntu1) wird eingerichtet ...
+libgcrypt11-dev (1.5.3-2ubuntu4.5) wird eingerichtet ...
+libtasn1-6-dev (3.4-3ubuntu0.5) wird eingerichtet ...
+libp11-kit-dev (0.20.2-2ubuntu2) wird eingerichtet ...
+libgnutls-dev (2.12.23-12ubuntu2.8) wird eingerichtet ...
+librtmp-dev (2.4+20121230.gitdf6c518-1ubuntu0.1) wird eingerichtet ...
+libcurl4-openssl-dev:i386 (7.35.0-1ubuntu2.10) wird eingerichtet ...
+libelf-dev:i386 (0.158-0ubuntu5.2) wird eingerichtet ...
+libdw-dev:i386 (0.158-0ubuntu5.2) wird eingerichtet ...
+libiberty-dev:i386 (20131116-1ubuntu0.2) wird eingerichtet ...
+binutils-dev (2.24-5ubuntu14.2) wird eingerichtet ...
+Trigger für libc-bin (2.19-0ubuntu6.13) werden verarbeitet ...
+
+asus-nb@asusnb-A8F ~ $ wget https://github.com/SimonKagstrom/kcov/archive/master.tar.gz && tar xf master.tar.gz
+--2017-10-02 19:28:01--  https://github.com/SimonKagstrom/kcov/archive/master.tar.gz
+Resolving github.com (github.com)... 192.30.253.113, 192.30.253.112
+Connecting to github.com (github.com)|192.30.253.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/SimonKagstrom/kcov/tar.gz/master [following]
+--2017-10-02 19:28:02--  https://codeload.github.com/SimonKagstrom/kcov/tar.gz/master
+Resolving codeload.github.com (codeload.github.com)... 192.30.253.121, 192.30.253.120
+Connecting to codeload.github.com (codeload.github.com)|192.30.253.121|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 296485 (290K) [application/x-gzip]
+Saving to: ‘master.tar.gz’
+
+100%[=============================================================================================>] 296.485      757KB/s   in 0,4s
+
+2017-10-02 19:28:03 (757 KB/s) - ‘master.tar.gz’ saved [296485/296485]
+
+asus-nb@asusnb-A8F ~ $ cd kcov-master && mkdir build && cd build
+asus-nb@asusnb-A8F ~/kcov-master/build $ cmake .. && make && sudo make install
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.26")
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Found LIBBFD: /usr/lib/libbfd.so
+-- Target architectures: i386
+-- checking for module 'zlib'
+--   found zlib, version 1.2.8
+-- checking for module 'libcurl'
+--   found libcurl, version 7.35.0
+-- Found LibElf: /usr/lib/i386-linux-gnu/libelf.so
+-- Found ElfUtils: /usr/lib/i386-linux-gnu/libdw.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/asus-nb/kcov-master/build
+Scanning dependencies of target bash_execve_redirector
+[  1%] Building C object src/CMakeFiles/bash_execve_redirector.dir/engines/bash-execve-redirector.c.o
+Linking C shared library libbash_execve_redirector.so
+[  1%] Built target bash_execve_redirector
+Scanning dependencies of target kcov_system_lib
+[  2%] Building CXX object src/CMakeFiles/kcov_system_lib.dir/engines/system-mode-binary-lib.cc.o
+[  4%] Building CXX object src/CMakeFiles/kcov_system_lib.dir/utils.cc.o
+[  5%] Building CXX object src/CMakeFiles/kcov_system_lib.dir/system-mode/registration.cc.o
+Linking CXX shared library libkcov_system_lib.so
+[  5%] Built target kcov_system_lib
+Scanning dependencies of target kcov_sowrapper
+[  7%] Building C object src/CMakeFiles/kcov_sowrapper.dir/solib-parser/phdr_data.c.o
+[  8%] Building C object src/CMakeFiles/kcov_sowrapper.dir/solib-parser/lib.c.o
+Linking C shared library libkcov_sowrapper.so
+[  8%] Built target kcov_sowrapper
+[ 10%] Generating version.c
+[ 11%] Generating library.cc
+[ 13%] Generating bash-redirector-library.cc
+[ 14%] Generating python-helper.cc
+[ 16%] Generating bash-helper.cc
+[ 17%] Generating kcov-system-library.cc
+[ 19%] Generating html-data-files.cc
+Scanning dependencies of target kcov
+[ 20%] Building CXX object src/CMakeFiles/kcov.dir/capabilities.cc.o
+[ 22%] Building CXX object src/CMakeFiles/kcov.dir/collector.cc.o
+[ 23%] Building CXX object src/CMakeFiles/kcov.dir/configuration.cc.o
+[ 25%] Building CXX object src/CMakeFiles/kcov.dir/engine-factory.cc.o
+[ 26%] Building CXX object src/CMakeFiles/kcov.dir/engines/bash-engine.cc.o
+[ 28%] Building CXX object src/CMakeFiles/kcov.dir/engines/system-mode-engine.cc.o
+[ 29%] Building CXX object src/CMakeFiles/kcov.dir/engines/system-mode-file-format.cc.o
+[ 31%] Building CXX object src/CMakeFiles/kcov.dir/engines/python-engine.cc.o
+[ 32%] Building CXX object src/CMakeFiles/kcov.dir/filter.cc.o
+[ 34%] Building CXX object src/CMakeFiles/kcov.dir/gcov.cc.o
+[ 35%] Building CXX object src/CMakeFiles/kcov.dir/main.cc.o
+[ 37%] Building CXX object src/CMakeFiles/kcov.dir/merge-file-parser.cc.o
+[ 38%] Building CXX object src/CMakeFiles/kcov.dir/output-handler.cc.o
+[ 40%] Building CXX object src/CMakeFiles/kcov.dir/parsers/bfd-disassembler.cc.o
+[ 41%] Building CXX object src/CMakeFiles/kcov.dir/parser-manager.cc.o
+[ 43%] Building CXX object src/CMakeFiles/kcov.dir/reporter.cc.o
+[ 44%] Building CXX object src/CMakeFiles/kcov.dir/source-file-cache.cc.o
+[ 46%] Building CXX object src/CMakeFiles/kcov.dir/utils.cc.o
+[ 47%] Building CXX object src/CMakeFiles/kcov.dir/writers/cobertura-writer.cc.o
+[ 49%] Building CXX object src/CMakeFiles/kcov.dir/writers/json-writer.cc.o
+[ 50%] Building CXX object src/CMakeFiles/kcov.dir/writers/coveralls-writer.cc.o
+[ 52%] Building CXX object src/CMakeFiles/kcov.dir/writers/html-writer.cc.o
+[ 53%] Building CXX object src/CMakeFiles/kcov.dir/writers/sonarqube-xml-writer.cc.o
+[ 55%] Building CXX object src/CMakeFiles/kcov.dir/writers/writer-base.cc.o
+[ 56%] Building CXX object src/CMakeFiles/kcov.dir/engines/clang-coverage-engine.cc.o
+[ 58%] Building CXX object src/CMakeFiles/kcov.dir/engines/ptrace.cc.o
+[ 59%] Building CXX object src/CMakeFiles/kcov.dir/engines/kernel-engine.cc.o
+[ 61%] Building CXX object src/CMakeFiles/kcov.dir/parsers/elf.cc.o
+[ 62%] Building CXX object src/CMakeFiles/kcov.dir/parsers/elf-parser.cc.o
+[ 64%] Building CXX object src/CMakeFiles/kcov.dir/parsers/dwarf.cc.o
+[ 65%] Building CXX object src/CMakeFiles/kcov.dir/solib-handler.cc.o
+[ 67%] Building C object src/CMakeFiles/kcov.dir/solib-parser/phdr_data.c.o
+[ 68%] Building CXX object src/CMakeFiles/kcov.dir/system-mode/file-data.cc.o
+[ 70%] Building CXX object src/CMakeFiles/kcov.dir/library.cc.o
+[ 71%] Building CXX object src/CMakeFiles/kcov.dir/bash-redirector-library.cc.o
+[ 73%] Building CXX object src/CMakeFiles/kcov.dir/python-helper.cc.o
+[ 74%] Building CXX object src/CMakeFiles/kcov.dir/bash-helper.cc.o
+[ 76%] Building CXX object src/CMakeFiles/kcov.dir/kcov-system-library.cc.o
+[ 77%] Building CXX object src/CMakeFiles/kcov.dir/html-data-files.cc.o
+[ 79%] Building C object src/CMakeFiles/kcov.dir/version.c.o
+Linking CXX executable kcov
+[ 79%] Built target kcov
+Scanning dependencies of target kcov-system-daemon
+[ 80%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/configuration.cc.o
+[ 82%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/dummy-solib-handler.cc.o
+[ 83%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/engine-factory.cc.o
+[ 85%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/engines/system-mode-file-format.cc.o
+[ 86%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/engines/ptrace.cc.o
+[ 88%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/filter.cc.o
+[ 89%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/gcov.cc.o
+[ 91%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/main-system-daemon.cc.o
+[ 92%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/parser-manager.cc.o
+[ 94%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/system-mode/file-data.cc.o
+[ 95%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/system-mode/registration.cc.o
+[ 97%] Building CXX object src/CMakeFiles/kcov-system-daemon.dir/utils.cc.o
+[ 98%] Building C object src/CMakeFiles/kcov-system-daemon.dir/version.c.o
+Linking CXX executable kcov-system-daemon
+[100%] Built target kcov-system-daemon
+[sudo] password for asus-nb:
+[  1%] Built target bash_execve_redirector
+[  5%] Built target kcov_system_lib
+[  8%] Built target kcov_sowrapper
+[ 79%] Built target kcov
+[100%] Built target kcov-system-daemon
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/local/bin/kcov
+-- Removed runtime path from "/usr/local/bin/kcov"
+-- Installing: /usr/local/share/man/man1/kcov.1
+
+Bis hierhin muß man unbedingt gehen, es sei denn man hat ca 100 Stunden Zeit die einzelnen crate manuell zu übersetzen,
+aus Erinnerung kann ich sagen, besser lassen!
+
+Danach würde ich einfach einmalig die beigelegte test.sh durchlaufen lassen.
+
+
