@@ -310,4 +310,9 @@ aus Erinnerung kann ich sagen, besser lassen!
 
 Danach würde ich einfach einmalig die beigelegte test.sh durchlaufen lassen.
 
-
+Danach lecker ein rustupdate auf die Version 1.20
+geht einfachst mit 
+"rustup update"
+danach ist man auf dem aktuellen tree und beim builden wird es einfacher,
+der erste Testdurchlauf mit dem evm-Teilbereich geht gerade vielversprechend 
+los
