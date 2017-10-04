@@ -316,3 +316,6 @@ geht einfachst mit
 danach ist man auf dem aktuellen tree und beim builden wird es einfacher,
 der erste Testdurchlauf mit dem evm-Teilbereich geht gerade vielversprechend 
 los
+herrlich dabei ist,daß man danach mit rustc -V auf jeden Fall auch sicherstellen kann, daß man sieht, 
+welches rust man atkiv benutzt.
+
