@@ -4,6 +4,7 @@ Metric
 
 Cups
 2½ teaspoons baking powder
+//Esta linea ha sido modificada a proposito para fines practicos
 1 pinch of salt
 1 teaspoon white sugar
 2 large eggs (beaten)
