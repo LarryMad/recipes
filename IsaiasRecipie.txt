@@ -3,7 +3,13 @@ Serves: 4-6
 Metric
 
 Cups
-2� teaspoons baking powder
+2½ teaspoons baking powder
+//This line is been modificated by the way on github
+Ingredients
+Serves: 4-6
+Metric
+Cups
+2½ teaspoons baking powder
 1 pinch of salt
 1 teaspoon white sugar
 2 large eggs (beaten)
