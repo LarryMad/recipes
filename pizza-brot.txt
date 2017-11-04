@@ -1,0 +1,9 @@
+take bread
+slice bread
+apply tomato-extrakt
+apply salami
+optional apply onion
+apply best cheese
+bake it
+eat it 
+enjoy it
