@@ -1,24 +1,21 @@
-boah, war knapp-
+boah, war knapp -
 
-ging aber gut,
+ging aber gut.
 
-ich bin mit meinem "Gedöns" umgezogen auf version 1.80 und es hat geklappt.
-die chain is synchron und was mich unglaublich glücklich macht, 
-ist das der wirklich älteste Rechner im Hause mit 64er Archtitektur wieder einen Warp-sync in unter 2 Stunden kann,
+Ich bin mit meinem "Gedöns" auf Version 1.80 umgezogen und es hat geklappt.
+Die Chain is synchron und was mich unglaublich glücklich macht, 
+ist, dass der wirklich älteste Rechner im Hause mit 64er-Archtitektur 
+wieder einen Warp-sync in unter 2 Stunden kann,
+eindrucksvolle Arbeit insgesamt,
+ich bedanke mich bei allen parity-devs, dass es für mich als Benutzer möglich war, den 2. Hardfork geplantermaßen mit umzusetzen.
 
-eindrucksvolle Arbeit,
+Sämtliche erste Testläufe waren (Konto erzeugen, Token schieben, Token anzeigen, ether schieben, korrektes Importieren,
+mehrere Browser benutzen, gleichermaßen, ens geht auch)
+komplett richtig, was die Funktionen, die Reaktionszeiten und die Performanz als Ganzes angeht.
 
-ich bedanke mich bei allen bei parity, daß es 
-für mich als Benutzer möglich war, den 2. Hardfork geplantermaßen mit umzusetzen.
+Gejammer gibt's immer, knapp, aber gut.
 
-Sämtliche ersten Testläufe waren (Konto erzeugen, Token schieben, Token anzeigen, ether schieben, korrektes importieren,
-mehrere Browser, gleichermaßen, ens geht auch)
-komplett richtig, was die Funktionen, 
-die Reaktionszeiten und die Performanz als solches angeht.
-
-Gejammer gibt`s immer, aber das war zwar knapp aber gut-
-
-mehr Gedaller ging wohl auch nicht mehr, mir scheint als wenn 
+Mehr Gedaller ging wohl auch nicht mehr, mir scheint, als wenn 
 die 400 Leutchen in Waterloo aus ihrer Ecke ebenfalls dazu beigetragen haben.
 
 Applaus an alle, das war sehr spannend und erfolgreich.
