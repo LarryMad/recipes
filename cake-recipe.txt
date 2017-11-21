@@ -1,6 +1,12 @@
 Ingredients:
+<<<<<<< HEAD
 - noise and flatulance 
 - noise and noise and noise and noise
+||||||| merged common ancestors
+=======
+- potato faces
+- potato ears 
+>>>>>>> 6865725019426bee9fe0db0f9115833216465d35
  - 2 cups sugar
  - 1 3/4 cups all-purpose flour
  - 3/4 cup cocoa
