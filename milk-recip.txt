@@ -14,3 +14,5 @@ As an agricultural product, milk is extracted from non-human mammals during or s
  countries became self-sufficient, contributing to a worldwide glut of milk.
 Throughout the world, more than six billion people consume milk and milk products.
  Over 750 million people live in dairy farming households.
+ Etymology
+The term "milk" comes from "Old English meoluc (West Saxon), milc (Anglian), from Proto-Germanic *meluks "milk" (source also of Old Norse mjolk, Old Frisian melok, Old Saxon miluk, Dutch melk, Old High German miluh, German Milch, Gothic miluks)"
