@@ -1,0 +1,9 @@
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+fork allows to make a copy of repository on github without pulling the code to local machine first
+
+clone command clones the whole repository including the commit history
+
+branches are used when there is a need for another version af a code with modifications, or new features
+
+ 
