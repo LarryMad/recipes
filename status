@@ -1,0 +1,33 @@
+Heute ist mir englisch zu kompliziert.
+
+Vielleicht gelingt es meinen 2-3 Lesern ja, diesem Text inhaltlich zu folgen.
+
+Wie schon gelegentlich erwähnt, benutze ich parity um meine ether-Transaktionen zu 
+organisieren, dabei habe ich mich bisher darauf ausschließlich beschränkt die Transaktionsklasse 1
+Übertragen von Werten in ether oder coins- bei den nach dem multi-sig durchgeführten Tests kamen zwar zwei Male Fehler auf, waren aber zu vernachlässigen, insofern, als daß dort nur falsche Gas-Wertes vorermittelt wurden.
+Ende vom Lied waren dann nicht durchgelaufene Transaktionen.
+Wen es wirklich interessiert, hier die Nummer der Wallet:
+https://etherscan.io/address/0x00933a786ee4d5d4592c0d1cf20b633c6a537f5f
+
+Alle Transaktionen wurden in einer 1.8.3 Version von parity unter linux mit einem angepassten x64.kernel vorbereitet und auch durchgeführt, das Zeitfenster ist quasi mit Bekanntwerden des multisig.bugs geöffnet worden und dauert an, weil
+für mich persönlich auf dem Zeitplan stehen, die sich nicht mehr verschieben lassen.
+
+Dazu gehört selbstverständlich die Auseinandersetzung mit dem Ethereum Name System- bzw. dem SmartContract, der von der 
+Ens. Authorität ausgegeben bzw. entwickelt wurde, um nach einem bestimmten Verfahren die Verfügungsrechte der jeweiligen *.eth Domain zu kontrollieren und einen NS-Eintrag auf die richtige Stelle zeigen zu lassen.
+Im Kern sozusagen die Vorbereitung, ethereum voll integriert zu benutzen.
+
+Ich reserviere also einen Namen zuerst, um dann mit eben diesem Namen in einem weiteren Smart-Contract zu interagieren.
+Im Smart-Contract steht dann weiterhin, daß dieser nur bis zur erneuten Auktion wirkt.
+Die bisher gemachten logischen Integritätsfehler umgehe ich dadurch vermutlich elegant.
+Wenn meine Vorarbeiten richtig sind, definiere ich den Vertrag "um den Namen herum", so daß die Wirkung auch nur aus dem Namen heraus zur Geltung kommt,
+vereinfacht- wenn der Name erneut auktioniert wird, darf der bisherige Vertrag nicht mehr mit eben dieser Adresse interagieren sondern immer noch mit der o.g.-
+wie das zu lösen ist, habe ich eine konkrete Idee,
+die gleichzeitig trotz gelaufener SMS-Auth, daß ich etwas beschädige.
+Was erstaunlich im Kontext der Auktionen auf 
+ens.domains ist,
+daß es im Grund kindereinfach ist, sich zumindest darum "zu bewerben"-
+Betrag eingeben, den man bereit ist, als Sicherung zu hinterlegen,
+zusätzlich für die Verschleierung bis Auktionsende- fertig.
+Da ich derzeit auf mehrere Domains "hidden" biete, 
+berichte ich beim nächsten Eintrag hoffentlich schon als Inhaber mindestens eines registrierten Namens.
+Soweit für Samstagabend ;-)
