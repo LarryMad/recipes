@@ -1,0 +1,11 @@
+tea-recipe.txt
+Ingredients:
+ - 1 1/2 teaspoons milk powder
+ - 1 1/2 teaspoons sugar
+ - 1/2 teaspoon tea powder
+ - 1 cup boiling water
+
+Directions:
+ 
+ 1. In a large bowl, combine all ingredients
+ 
