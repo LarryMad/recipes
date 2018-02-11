@@ -1,0 +1,6 @@
+1. Go to the www.pizza-portal.pl
+2. Find the place from where you want order your pizza
+3. Choose the best one
+4. Make an order
+5. Wait for delivery
+6. Eat your pizza
