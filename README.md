@@ -1,4 +1,5 @@
 # Recipes
+# Practice for Git and GitHub
 
 This repository contains recipes for some foods I like.
 
