@@ -1,0 +1,10 @@
+I have a pen. I have an apple.
+Ugh
+Applepen.
+I have a pen. I have a pineapple.
+Ugh
+Pineapplepen.
+Applepen. Pineapplepen.
+Ugh
+Penpineappleapplepen.
+
