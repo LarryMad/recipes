@@ -1,0 +1,13 @@
+bun
+
+patty
+
+lettuse
+
+tomatoes
+
+onions
+
+ketchup
+
+mayonaise
