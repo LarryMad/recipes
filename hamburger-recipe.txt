@@ -1,0 +1,3 @@
+hotdog:
+
+- a dog which is hot
