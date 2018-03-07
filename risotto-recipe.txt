@@ -1,0 +1,12 @@
+Ingredients:
+	- 100 grams arborio rice
+	- wine
+	- chicken broth
+ 
+Directions:
+ 1. fry rice for 10 minutes
+ 2. pour wine on rice
+ 3. cook until wine is absorbed by rice
+ 4. pour broth on rice
+ 5. cook until broth is absorbed
+ 
