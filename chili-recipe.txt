@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-[C[C[Cand the time has come when this file must be changed again.
-||||||| merged common ancestors
-and the problem is finally resolved.
-=======
-Let's make changes to the chilie recipe.
->>>>>>> origin/master
+Things must change over time otherwise they get outperformed.
