@@ -1,0 +1,9 @@
+recipe for recipe
+ingredients:
+text editor (digital or physical)
+recipe source (mental, digital or physical)
+
+open text editor
+1 - list ingredients
+2 - list steps
+3 - add stock photos if required
