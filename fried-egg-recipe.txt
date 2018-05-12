@@ -1,6 +1,6 @@
 Ingredients:
  - 1 egg
- - oid (for cooking)
+ - olive oid (for cooking)
  - salt
  - petter
 
