@@ -1,0 +1,3 @@
+set alarm to 5 AM
+wake up
+drink water
