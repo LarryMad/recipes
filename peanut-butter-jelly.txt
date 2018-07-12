@@ -1,0 +1,15 @@
+Ingredients:
+    Peanut butter
+    Jelly 
+    Bread
+    Nostalgia
+
+Instructions:
+    Preheat oven to 340 degrees
+    Aquire two slices of bread
+    Apply a moderate amount of Peanut butter to both slices
+    Apply Jelly to one slice
+    Compile slices
+    Cut diagonally 
+
+Serves 1
