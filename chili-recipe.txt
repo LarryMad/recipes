@@ -10,6 +10,12 @@ Ingredients:
  - 1/4 cup corn flour
  - One 15-ounce can kidney beans, drained and rinsed
  - One 15-ounce can pinto beans, drained and rinsed
+<<<<<<< HEAD
+ - cayenne pepper
+||||||| merged common ancestors
+=======
+ - Onion Powder
+>>>>>>> 07d25ff5fd35c29af000b8e24eb07d443b169ef4
 
 Directions:
  1. Brown the ground beef in a large bot and drain off the excess fat.
