@@ -7,7 +7,11 @@ Ingredients:
  - 1 teaspoon salt
  - 2 eggs
  - 1 cup milk
- - 1/2 cup vegetable oil
+<<<<<<< HEAD
+ - 3/4 cup pickle oil
+=======
+ - 3/4 cup vegetable oil
+>>>>>>> fa0b80791ae3da4e999a8912138c7fc24cf7784d
  - 2 teaspoons vanilla extract
  - 1 cup boiling water
 
