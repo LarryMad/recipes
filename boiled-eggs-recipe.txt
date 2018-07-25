@@ -1,0 +1,9 @@
+Ingredients:
+ - eggs
+
+Directions:
+ 1. Put the eggs in a saucepan with water
+ 2. Heat the water until it boils
+ 3. Turn of the heat, let the eggs in the water for around
+    10 minutes
+ 4. Eat. :)
