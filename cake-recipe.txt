@@ -7,9 +7,16 @@ Ingredients:
  - 1 teaspoon salt
  - 2 eggs
  - 1 cup milk
+<<<<<<< HEAD
+ - 1/2 cup sunflower oil
+||||||| merged common ancestors
  - 1/2 cup vegetable oil
+=======
+ - 3/4 cup vegetable oil
+>>>>>>> 1ec01da0fb8549017d9cd66d46659fdb6bd79368
  - 2 teaspoons vanilla extract
  - 1 cup boiling water
+ - 1 teaspoon of honey
 
 Directions:
  1. Preheat oven to 350 degrees F. Grease and flour two 9-inch round baking
