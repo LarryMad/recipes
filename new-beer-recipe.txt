@@ -1,0 +1,7 @@
+ingredients:
+1 beer
+
+directions:
+1) open beer
+2) drink beer
+3) repeat as necessary

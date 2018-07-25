@@ -1,0 +1,6 @@
+ingredients:
+1 beer
+
+instructions:
+1) drink beer
+2) repeat as necessary
