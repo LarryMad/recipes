@@ -1,0 +1,8 @@
+ingridients:
+2eggs;
+2spoons of milk;
+1/2 onion
+
+directions:
+roast the onion, crack the eggs and add some milk.
+cook about 20minuts and it's done.
