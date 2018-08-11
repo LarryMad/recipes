@@ -1,0 +1,10 @@
+
+    Heat the olive oil in a large Dutch oven or soup pot over medium heat until shimmering. 
+    Add the onions, celery and carrot and a light sprinkle of salt. 
+    Cook, stirring occasionally, until the vegetable are soft, about 10 to 15 minutes.
+    Stir in the garlic, cumin and red pepper flakes and cook until fragrant, about 30 seconds. 
+    Pour in the beans and broth and bring to a simmer over medium-high heat. 
+    Cook, reducing heat as necessary to maintain a gentle simmer, until the broth is flavorful and the beans are very tender, about 30 minutes.
+    Puree about 4 cups of the soup in a blender until smooth (beware the steam that escapes from the top of the blender, it's very hot). 
+    Return the pureed soup to the pot, stir in the cilantro, vinegar/lime juice and salt and pepper, to taste. Serve.
+	// changes done in feature branch in VS
