@@ -1,5 +1,11 @@
 Ingredients:
+<<<<<<< HEAD
  - 3 cups sugar
+||||||| merged common ancestors
+ - 2 cups sugar
+=======
+ - 4 cups sugar
+>>>>>>> f13f0210553f962232b81aa5045649ac2be67cf2
  - 1 3/4 cups all-purpose flour
  - 3/4 cup cocoa
  - 1 1/2 teaspoons baking powder
