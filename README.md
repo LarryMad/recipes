@@ -1,2 +1,2 @@
 # Recipes
-Kuch bhi likhega matlab maan lenge
+# This is a demo!
