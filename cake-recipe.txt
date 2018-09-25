@@ -1,6 +1,5 @@
 Ingredients:
- - 2 cups sugar
- - 1 3/4 cups all-purpose flour
+- 1 3/4 cups all-purpose flour
  - 3/4 cup cocoa
  - 1 1/2 teaspoons baking powder
  - 1 1/2 teaspoons baking soda
@@ -15,7 +14,7 @@ Directions:
  1. Preheat oven to 350 degrees F. Grease and flour two 9-inch round baking
     pans.
  
- 2. In a large bowl, combine the sugar, flour, cocoa, baking powder, baking soda
+ 2. In a large bowl, combine the flour, cocoa, baking powder, baking soda
     and salt.  Add eggs, milk, oil and vanilla. Mix until smooth.  Stir in
     boiling water (batter will be thin). Pour batter into prepared pans.
  
