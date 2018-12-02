@@ -1,0 +1,6 @@
+Ingredients:
+ - something
+ - something
+
+Instructions:
+ Take something, subtract something, and you are left with nothing.
