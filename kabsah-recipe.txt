@@ -3,3 +3,4 @@ rice
 chicken 
 spices
  more
+Don't add poison to kabsah
