@@ -1,6 +1,6 @@
 1 food
 2 water
-
+3 fruit
 
 
 
@@ -12,3 +12,4 @@ recipe:
  run in the morning  after eat good food
  before eat you can drink much water if you want
  after dinner go to a restuarant and drink 
+in the mornig before run you can eat some froute better apple
