@@ -1,5 +1,4 @@
 1 food
-2 water
 3 fruit
 
 
@@ -8,8 +7,10 @@
 
 
 
-recipe: 
- run in the morning  after eat good food
- before eat you can drink much water if you want
- after dinner go to a restuarant and drink 
-in the mornig before run you can eat some froute better apple
+
+
+recipe:
+
+	1. in the moring before run eat fruit it's better if you eat oranges or apples
+	2. run 3.200m
+	3. after run take a shower and eat a lot of food
