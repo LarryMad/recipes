@@ -7,7 +7,7 @@ Ingredients:
  - 1 teaspoon salt
  - 2 eggs
  - 1 cup milk
- - 1/2 cup vegetable oil
+ - 1/2 cup mustard oil
  - 2 teaspoons vanilla extract
  - 1 cup boiling water
 
@@ -21,4 +21,5 @@ Directions:
  
  3. Bake 30 to 35 minutes or until a toothpick inserted in the center comes out
     clean. Cool completely.
+  git remote set-url origin https://mdrahil:786@ali786@github.com/mdrahil/recipes.git
 
