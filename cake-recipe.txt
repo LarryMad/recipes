@@ -4,7 +4,7 @@ Ingredients:
  - 3/4 cup cocoa
  - 1 1/2 teaspoons baking powder
  - 1 1/2 teaspoons baking soda
- - 1 teaspoon salt
+ - 1 teaspoon salt  ok??? confilcting here
  - 2 eggs
  - 1 cup milk
  - 1/2 cup vegetable oil
@@ -21,4 +21,7 @@ Directions:
  
  3. Bake 30 to 35 minutes or until a toothpick inserted in the center comes out
     clean. Cool completely.
+
+
+# Ìí¼ÓÐÂ²ËÆ×
 
