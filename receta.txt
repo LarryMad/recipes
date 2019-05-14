@@ -1,2 +1,3 @@
-Hipotética receta de tarta de manzana
-Riquísima
+HipotÃ©tica receta de tarta de manzana
+RiquÃ­sima
+AquÃ­ lo que quiero conseguir es que haya un conflicto
