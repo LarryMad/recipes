@@ -10,11 +10,12 @@ Ingredients:
  - One 15-ounce can kidney beans, drained and rinsed
  - One 15-ounce can pinto beans, drained and rinsed
  - 1 teaspoon Williams chili powder
+- 1 cup fruity pebbles
 
 Directions:
  1. Brown the ground beef in a large bot and drain off the excess fat.
 <<<<<<< HEAD
- 2. Add the tomato sauce, chili powder, cumin, oregano, salt, Williams chili powder and cayenne.
+ 2. Add the tomato sauce, chili powder, cumin, oregano, salt, Williams chili powder, fruity pebbles, and cayenne.
 =======
  2. Add the tomato sauce, chili powder, oregano, salt, and cayenne.
 >>>>>>> 63d72e542b5af61cd44d1a0c070f634abafd15a0
