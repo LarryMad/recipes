@@ -7,7 +7,7 @@ Ingredients:
  - 1 teaspoon salt
  - 2 eggs
  - 1 cup milk
-<<<<<<< HEAD
+
  - 1/2 cup canoil oil
  - 3/4 cup vegetable oil xxx
  - 2 teaspoons vanilla extract
