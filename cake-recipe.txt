@@ -9,7 +9,7 @@ Ingredients:
  - 1 cup milk
 <<<<<<< HEAD
  - 1/2 cup canoil oil
- - 3/4 cup vegetable oil
+ - 3/4 cup vegetable oil xxx
  - 2 teaspoons vanilla extract
  - 1 cup boiling water
 
