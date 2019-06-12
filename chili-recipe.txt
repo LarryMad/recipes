@@ -4,6 +4,8 @@ Ingredients:
  - One 8-ounce can tomato sauce
  - 2 tablespoons chili powder
  - 1 teaspoon ground cumin
+ - 1 teaspoon of sugar
+ - 1 teaspoon ground cumin
  - 1 teaspoon ground oregano
  - 1 teaspoon salt
  - 1/4 teaspoon cayenne pepper
@@ -13,7 +15,19 @@ Ingredients:
 
 Directions:
  1. Brown the ground beef in a large bot and drain off the excess fat.
+<<<<<<< HEAD
+ 2. Add the tomato sauce, chili powder, cumin, sugar, oregano, salt, and cayenne.
+||||||| merged common ancestors
  2. Add the tomato sauce, chili powder, cumin, oregano, salt, and cayenne.
+=======
+ 2. Add the tomato sauce, chili powder, oregano, salt, and cayenne.
+<<<<<<< HEAD
+>>>>>>> 99ff9273b3bfe036e403dec134f81931efef3570
+||||||| merged common ancestors
+>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 7a21f0a06e7c5280f0a33ba6e12dfb4cd6c775b8
+>>>>>>> a87dde5d1cbd60f48aebaf1997d764907a9818ff
  3. Stir, then cover and simmer over low heat for one hour.
  4. Mix the corn flour and 1/2 cup water in a small bowl.  Add to chili.
  5. Add the beans and simmer for 10 more minutes.
