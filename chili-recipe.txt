@@ -12,13 +12,9 @@ Ingredients:
  - 1 teaspoon turmeric powder
 
 Directions:
-<<<<<<< HEAD
+
  1. Brown the ground tofu in a large bot.
  2. Add the tomato sauce, turmeric powder, chili powder, cumin, oregano, salt, and cayenne.
-=======
- 1. Brown the ground beef in a large bot and drain off the excess fat.
- 2. Add the tomato sauce, chili powder, oregano, salt, and cayenne.
->>>>>>> 0e89527c61eb9bde4a1894a3ae35cc6e60d2ea0d
  3. Stir, then cover and simmer over low heat for one hour.
  4. Mix the corn flour and 1/2 cup water in a small bowl.  Add to chili.
  5. Add the beans and simmer for 10 more minutes.
