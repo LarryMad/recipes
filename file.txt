@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 dsdsa changed
+||||||| merged common ancestors
+dsdsa
+=======
+dsdsa changed again
+>>>>>>> 674008901cc6e8ef8c73d99dda29d2ff0ef07a1a
